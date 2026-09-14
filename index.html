@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A portfolio of motion, image, and multidisciplinary design. Selected work and the process behind it.">
+  <meta name="theme-color" content="#f4f4f5">
+  <title>Your name — Selected work</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="variables.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#work">Skip to work</a>
+  <header class="site-header"><div class="container header-inner">
+    <a href="#top" class="wordmark" aria-label="Back to top"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span id="site-name"></span></a>
+    <nav aria-label="Main navigation"><a href="#work">Selected work</a><a href="#process">Process</a><a href="#about">About</a></nav>
+    <span class="header-note">Independent perspective.</span>
+  </div></header>
+  <main id="top">
+    <section class="container hero" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow"><span class="teal-dot"></span><span id="discipline"></span></p><h1 id="hero-title"></h1><p class="hero-description" id="hero-description"></p><a class="button primary" href="#work">Explore my work <span aria-hidden="true">↗</span></a></div>
+      <div class="hero-art"><div id="hero-media"></div><div class="hero-caption"><span>Motion. Image. Ideas.</span><span aria-hidden="true">↗</span></div></div>
+    </section>
+    <div class="container discipline-strip" aria-label="Creative disciplines" id="disciplines"></div>
+    <section class="container work-section" id="work" aria-labelledby="work-heading">
+      <div class="section-heading"><div><p class="eyebrow">A closer look</p><h2 id="work-heading">Selected work,<br>and what went into it.</h2></div><p>One story in depth.<br>A few more things in motion.</p></div>
+      <div class="work-layout">
+        <aside class="gallery-rail" aria-labelledby="gallery-heading"><div class="rail-title"><h3 id="gallery-heading">Work index</h3><span id="gallery-count"></span></div><div class="gallery-list" id="gallery"></div><p class="rail-note">A collection of explorations.<br>Select a piece to take a look. <span aria-hidden="true">↗</span></p></aside>
+        <article class="project-story" id="story"></article>
+      </div>
+    </section>
+    <section class="container about-section" id="about" aria-labelledby="about-heading"><p class="eyebrow">The person behind the work</p><div class="about-grid"><h2 id="about-heading"></h2><div><p id="about-copy"></p><span class="small-label">Always curious. Always making.</span></div></div></section>
+  </main>
+  <footer><div class="container footer-inner"><a class="wordmark" href="#top"><span id="footer-name"></span><span class="teal-dot"></span></a><p>Selected work & creative process</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div></footer>
+  <dialog id="viewer" class="viewer" aria-labelledby="viewer-title"><div class="viewer-toolbar"><span class="eyebrow" id="viewer-position"></span><button class="icon-button" id="viewer-close" aria-label="Close viewer">✕</button></div><div id="viewer-media"></div><div class="viewer-details"><div><p class="eyebrow" id="viewer-category"></p><h2 id="viewer-title"></h2><p id="viewer-description"></p></div><div class="viewer-navigation"><button class="icon-button" id="viewer-prev" aria-label="Previous work">←</button><button class="icon-button" id="viewer-next" aria-label="Next work">→</button></div></div></dialog>
+  <noscript><p class="container">Please enable JavaScript to display the portfolio content and gallery.</p></noscript>
+</body>
+</html>
