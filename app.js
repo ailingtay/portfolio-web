@@ -87,6 +87,9 @@
     if (spec.caption) node.append(el('figcaption', 'media-caption', spec.caption));
     return node;
   }
+  document.querySelectorAll('[data-copy]').forEach(node => {
+    if (content.page?.[node.dataset.copy] !== undefined) node.textContent = content.page[node.dataset.copy];
+  });
   $('site-name').textContent = content.name;
   $('footer-name').textContent = content.name;
   document.title = `${content.name} — Selected work`;

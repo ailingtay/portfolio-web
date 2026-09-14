@@ -1,6 +1,14 @@
 /* All portfolio copy and media live here. See README.md for editing examples. */
 window.PORTFOLIO = {
   name: 'Your name',
+  page: {
+    headerNote: 'Independent perspective.', heroCaption: 'Motion. Image. Ideas.',
+    workEyebrow: 'A closer look', workHeading: 'Selected work,\nand what went into it.',
+    workIntro: 'One story in depth. A few more things in motion.',
+    galleryHeading: 'Work index', galleryNote: 'A collection of explorations. Select a piece to take a look. ↗',
+    aboutEyebrow: 'The person behind the work', aboutNote: 'Always curious. Always making.',
+    footerNote: 'Selected work & creative process'
+  },
   discipline: 'Motion & multidisciplinary design',
   headline: 'Ideas take shape.\nStories come alive.',
   introduction: '[Introduce yourself in one or two sentences. Describe what you create, what interests you, and the perspective you bring to your work.]',
