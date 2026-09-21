@@ -10,9 +10,13 @@ B now contains no accordions or dialogs. The hero tiles and overview links jump 
 
 ## Two reading speeds, one open page
 
-The opening retains the large five-world composition and adds a compact four-part overview. The introduction, facts and overview contain about 180 words including navigation to all seven chapters. This provides the fast, roughly 90-second understanding: what the project is, what the designer contributed, and which skills it demonstrates.
+The opening is now an open-studio composition, led by “What happens if I try this?” Original artwork and a green-screen motion test sit beside their finished timer. A second branch shows the real connected canvas and an explicitly labelled owl-direction summary. This makes process, discovery and experimentation the first impression—not just a gallery of finished work.
 
-The rest is a deliberately longer process story. Large headings, concise explanations, paired examples and visual sequences let a reader skim or follow the decisions in depth. The full visible main page contains approximately 1,550 words including captions, diagrams, tool names and controls. It is no longer presented as a complete 90-second read. The opening remains 177 words.
+The introduction, facts and four-discovery overview contain about 195 words, including navigation to all seven chapters, with short captions around the hero media. This supports a roughly 90-second orientation. The rest is a deliberately longer process story: approximately 1,730 words across the full main page including labels, captions, diagrams, tool names and controls. It is not presented as a complete 90-second read.
+
+The editorial sequence is question → original character → generated misses and refinements → connected experiments and finished library → tooling rethink → longer sequences → varied workflows → collection and reflection. The tooling strand is explicitly introduced as a parallel enquiry; the layout does not invent a chronological cause-and-effect relationship between it and the motion tests.
+
+The oversized plain-timer/designed-timer comparison has been folded into smaller evidence panels inside the two tool experiments. Both images and their meaning remain visible. The designed example is labelled as separately designed, not a one-click before/after transformation. The finished library now follows its tests and component development as the payoff. Its readable-prompt placeholder sits immediately beside the workflow explanation it would support.
 
 The user’s earlier direction remains: desktop first, large media, an original cohesive narrative, short clear copy, and placeholders only for identified gaps. No identity, contact fields, client claims or unverified impact figures have been added.
 
@@ -20,12 +24,12 @@ The user’s earlier direction remains: desktop first, large media, an original 
 
 | Original material | Where it appears in B |
 | --- | --- |
-| The repetitive production challenge and five workflow stages | 01 / The challenge: five illustrated stages, with the AI exploration stages identified |
-| The browser timer prototype and its limitations | 02 / The experiments: inline recording and a clear explanation of the loss of creative control |
+| The repetitive production challenge and five workflow stages | 01 / The question: five illustrated stages, with the AI exploration stages identified |
+| The browser timer prototype and its limitations | 04 / Rethink the tool: inline recording and a clear explanation of the loss of creative control |
 | The After Effects setup tool | Beside the prototype, with its own recording, lesson and editable-design rationale |
-| Browser output versus designed output | Two large examples immediately below the experiments |
-| Original drawing → AI motion → finished timer | 03 / The artwork: a visual sequence with short explanatory captions |
-| Owl reference, rejected generations and approved motion | 04 / The judgment: four large, always-visible comparison panels, each explaining the decision |
+| Browser output versus designed output | Compact evidence within each tool experiment, not a standalone before/after spectacle |
+| Original drawing → AI motion → finished timer | Hero and 02 / First, a character: a visual sequence with short explanatory captions |
+| Owl reference, rejected generations and approved motion | 03 / Learn from the tests: four large, always-visible comparison panels, each explaining the decision |
 | Node-based generation workflow | Wide inline recording with reference → prompt/motion → selection guide; three moving canvas close-ups paired with finished library details |
 | Short clips, longer timers, loops and timed character events | 05 / The pacing: robot excerpt, three actual animation frames (rest → variation → recharged), and a four-track sequence diagram |
 | Different tools for different visual worlds | 06 / The toolkit: four large examples with artwork, animation, music and assembly tool chains |
@@ -50,7 +54,7 @@ Six new WebP derivatives live in `assets/design-b/`: `library-candle`, `library-
 
 Existing source assets remain intact. `assets/design-b/` contains WebP stills, including the newly restored owl reference. Existing lightweight MP4 previews in `assets/timer-lab-review/` provide the motion; the heavyweight source GIFs are not loaded.
 
-Preview clips load when visible, pause offscreen and respect both individual pause choices and reduced-motion preferences. The four inline recordings—browser prototype, After Effects tool, node workflow and context clip—use native controls and do not autoplay. They prepare near the viewport, pause when scrolled away, and do not resume without a playback request. Starting one recording pauses another, and the global pause control stops recordings too.
+The current playback implementation automatically plays muted, looping previews and the four inline recordings. Individual and global pause controls remain available; hidden-tab playback is paused. This narrative pass preserves the existing automatic-playback changes in `design-b.js` rather than restoring the earlier viewport-triggered policy. The hero reuses existing video files and requires no new media downloads from outside the project.
 
 The main story, captions, diagrams and native recording controls are available without JavaScript. B makes no external network requests.
 
@@ -58,9 +62,9 @@ The main story, captions, diagrams and native recording controls are available w
 
 The connected-motion section has one new, compact placeholder: a 1080p-or-higher RunwayML recording showing the character reference connection, readable prompt and generated motion. The existing 960px-wide canvas shows the structure, but its tiny prompt text cannot be reliably read. Do not transcribe or invent exact prompts from it.
 
-The existing final montage placeholder and its brief remain visible:
+No additional placeholders were introduced in this narrative pass. The two existing gaps are retained because they provide evidence missing from the inventory: readable instructions leading to generated motion, and a cohesive process-to-finish edit with sound. The montage brief is now:
 
-- A 15–20 second full-screen edit of the illustrated, weather, library and robot timers.
+- A 15–20 second edit from drawing → green-screen motion → connected tests → finished scene, then across the collection.
 - Show their different pacing and character, ending on the supplied **Time’s up** typography.
 - Include the intended music and sound; the GIF-derived previews are silent.
 - Export 16:9 MP4 at 1920 × 1080 or higher.
@@ -73,9 +77,9 @@ Some supplied previews and the illustrated character still are approximately 800
 
 - `design-b.html`: the complete visible story, media and diagrams.
 - `design-b.css`: the visual system, expanded process layouts and responsive rules.
-- `design-b.js`: viewport-aware previews, inline recording behaviour and navigation progress.
+- `design-b.js`: automatic playback, pause controls and navigation progress; unchanged in this narrative pass.
 - `design-switcher.css`: the shared A/B navigation.
 
 Browser checks passed at 320, 375, 390, 768, 1024, 1512, 1920 and 2560px without horizontal overflow. All three main navigation links stay available on phones. Verified that there are no accordions, dialogs or modal-only content triggers; all referenced images and anchors resolve.
 
-All four inline recordings play and pause offscreen. Global pause, persistent individual pause, reduced-motion defaults, content visibility without JavaScript and A/B navigation were verified. No page script errors or missing assets were reported.
+The new narrative order, sequential chapter numbers, all anchor targets, hero automatic playback, individual/global pause, content visibility without JavaScript and A/B navigation were verified. No page script errors or missing assets were reported. Desktop and mobile hero, tooling and library-payoff screenshots were reviewed.
