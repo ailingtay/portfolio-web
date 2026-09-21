@@ -1,64 +1,81 @@
-# Design B — a visual story
+# Design B — the work and the thinking
 
-Preview `design-b.html`, or use the **B / Visual story** tab above the main navigation on the original portfolio. The existing case-study review also links to both designs. A remains the original; B has independent markup, styling and behaviour.
+Preview `design-b.html`, or choose **B / Visual story** in the global tabs above the main navigation.
 
-## The editorial change
+## Standing content rule
 
-The original featured project tells nine chronological chapters in about 743 words of narrative, before captions, metadata and supporting diagrams. It repeats the questions about automation and control, opens on a laptop image with an unfilled green screen, and puts much of the work in a narrow column. Its gallery and identity copy still include template placeholders.
+**Keep meaningful content visible. Only hide or collapse it when the user explicitly requests that.** Do not move process explanations, comparisons, demonstrations or asset briefs into accordions, tabs, drawers or click-only dialogs to shorten the page.
 
-B makes one argument: **the craft is knowing what to hand over.** It starts with the finished range, then demonstrates three decisions:
+B now contains no accordions or dialogs. The hero tiles and overview links jump to visible sections. Native video controls start playback within the page; they do not conceal the surrounding story.
 
-1. **Set the direction.** Original drawing → directed movement → finished scene. The three images form one visual explanation, with the finished result given twice the width.
-2. **Know what to keep.** A large library scene leads with the result. The rejected generations sit in an expandable comparison, so the decision can be understood in a sentence or explored in detail.
-3. **Make room for the craft.** A pair of panels connects a reusable After Effects tool with the robot's loop-and-event structure. The browser prototype explains the earlier trade-off on demand.
+## Two reading speeds, one open page
 
-The ending returns to the central lesson. The language is intended for a curious reader, not a recruiter checklist. No name, contact details, client claims or unverified impact figures have been added.
+The opening retains the large five-world composition and adds a compact four-part overview. The introduction, facts and overview contain about 180 words including navigation to all seven chapters. This provides the fast, roughly 90-second understanding: what the project is, what the designer contributed, and which skills it demonstrates.
 
-The main narrative is 197 words. Captions, controls and the montage slot bring the default visible main page to 326 words. The 90-second path is an editorial target, not an enforced timer; opening comparisons or watching demonstrations adds optional depth. The separate detailed case study remains available at the end.
+The rest is a deliberately longer process story. Large headings, concise explanations, paired examples and visual sequences let a reader skim or follow the decisions in depth. The full visible main page contains approximately 1,550 words including captions, diagrams, tool names and controls. It is no longer presented as a complete 90-second read. The opening remains 177 words.
 
-## Layout and assets
+The user’s earlier direction remains: desktop first, large media, an original cohesive narrative, short clear copy, and placeholders only for identified gaps. No identity, contact fields, client claims or unverified impact figures have been added.
 
-The design uses near-full-width media, up to 2240px on very large monitors, with quiet neutral surfaces, oversized typography and a dark chapter for the library scene. On phones, the opening becomes a large hero plus four smaller scenes, the drawing sequence stacks, and the system panels become a single column.
+## What returned from A
 
-| Asset | Purpose in B |
+| Original material | Where it appears in B |
 | --- | --- |
-| `07-timer-a/b/c/d.png` and `06-timer.png` | Five distinct worlds in the opening composition |
-| `04-drawing.png`, `04-movement.mp4`, `04-final-timer.mp4` | Original artwork, motion test and final assembly |
-| `05-final.mp4` | Large finished library scene |
-| `05-owl-bad-1/2.mp4`, `05-owl-approved.mp4` | Rejected and accepted motion in the expandable comparison |
-| `03-ae-plugin.mp4` | On-demand tool demonstration |
-| `02-timer-app.mp4`, `02-compare1/2.png` | Optional prototype and design-control comparison |
-| `06-robot-timer.mp4` | Loop-based production, paired with a simple sequence diagram |
-| `05-node.mp4` | Optional production workflow detail |
-| `07-timer-e.png` | The suggested final frame in the montage brief |
-| `portfolio.mp4` | Existing context clip, available in a viewer |
+| The repetitive production challenge and five workflow stages | 01 / The challenge: five illustrated stages, with the AI exploration stages identified |
+| The browser timer prototype and its limitations | 02 / The experiments: inline recording and a clear explanation of the loss of creative control |
+| The After Effects setup tool | Beside the prototype, with its own recording, lesson and editable-design rationale |
+| Browser output versus designed output | Two large examples immediately below the experiments |
+| Original drawing → AI motion → finished timer | 03 / The artwork: a visual sequence with short explanatory captions |
+| Owl reference, rejected generations and approved motion | 04 / The judgment: four large, always-visible comparison panels, each explaining the decision |
+| Node-based generation workflow | Wide inline recording with reference → prompt/motion → selection guide; three moving canvas close-ups paired with finished library details |
+| Short clips, longer timers, loops and timed character events | 05 / The pacing: robot excerpt, three actual animation frames (rest → variation → recharged), and a four-track sequence diagram |
+| Different tools for different visual worlds | 06 / The toolkit: four large examples with artwork, animation, music and assembly tool chains |
+| A consistent system with varied outputs | 07 / The collection: context clip, collection narrative and final montage slot |
+| Knowing what to hand over | Closing reflection and three practical takeaways |
 
-`assets/design-b/` contains small WebP derivatives of the original stills. Source files are preserved. The context poster is a frame of the supplied video. Existing MP4 copies in `assets/timer-lab-review/` supply the previews; B does not load the heavyweight GIFs or icon sheets. Images use responsive sizes where useful. Videos load when visible, pause offscreen and pause while a viewer is open. Individual pause choices are preserved. Reduced-motion mode starts with still images and permits explicit playback.
+The quiet pelican treatment is also shown at full width within a split composition, with its description visible. The toolkit retains the source’s specific tool attributions, including the distinct MiniMax routes, instead of inventing production details.
 
-The simple robot track is a conceptual diagram, not an exact timeline. It intentionally avoids unsupported timing claims.
+The robot sequence is a conceptual diagram, explicitly not to scale. Its sleeping loop, dream doodles, character twitches and final wake-up come from A; it does not invent a total duration or measured savings.
 
-## One missing media asset
+## Media and performance
 
-The final montage has a single, deliberate placeholder, with its brief available under **What to put here**:
+### Development-media audit
+
+The source `05-node.gif` contains the owl variants plus candle, hourglass, book, portrait and environment experiments. B now brings forward the candle, hourglass and book groups as animated crops of the existing `05-node.mp4`. They are paired with detail crops from frame 182 of the supplied `05-final.gif`. These show development elements in context, not a claim that every displayed candidate became the final selected take. The source footage and connectors are unmodified; no fake software interface or prompt text has been invented.
+
+The RunwayML label follows the user's identification of this workflow. Original per-world model/tool credits remain unchanged. The owl direction is explicitly a summary from the existing case study, not a verbatim prompt.
+
+Three additional WebP stills come from frames 0, 216 and 360 of `06-robot-timer.gif`. They demonstrate the finished sequence, not unsupported claims about separate robot source assets. Portrait and environment tests remain visible in the full canvas; they are not expanded into redundant extra case studies.
+
+Six new WebP derivatives live in `assets/design-b/`: `library-candle`, `library-hourglass`, `library-book`, `robot-rest`, `robot-variation` and `robot-recharged`. The three cropped motion views share the already-used lightweight node MP4; no source GIFs or additional video exports are loaded. Their posters, copy and final stills remain visible without JavaScript.
+
+Existing source assets remain intact. `assets/design-b/` contains WebP stills, including the newly restored owl reference. Existing lightweight MP4 previews in `assets/timer-lab-review/` provide the motion; the heavyweight source GIFs are not loaded.
+
+Preview clips load when visible, pause offscreen and respect both individual pause choices and reduced-motion preferences. The four inline recordings—browser prototype, After Effects tool, node workflow and context clip—use native controls and do not autoplay. They prepare near the viewport, pause when scrolled away, and do not resume without a playback request. Starting one recording pauses another, and the global pause control stops recordings too.
+
+The main story, captions, diagrams and native recording controls are available without JavaScript. B makes no external network requests.
+
+## Identified media gaps
+
+The connected-motion section has one new, compact placeholder: a 1080p-or-higher RunwayML recording showing the character reference connection, readable prompt and generated motion. The existing 960px-wide canvas shows the structure, but its tiny prompt text cannot be reliably read. Do not transcribe or invent exact prompts from it.
+
+The existing final montage placeholder and its brief remain visible:
 
 - A 15–20 second full-screen edit of the illustrated, weather, library and robot timers.
-- Show the different pacing and character, then end on the supplied **Time’s up** typography.
-- Include the intended music and sound; the current GIF-derived previews are silent.
-- Export MP4 at 1920 × 1080 or higher, 16:9, with a clean opening/poster frame.
+- Show their different pacing and character, ending on the supplied **Time’s up** typography.
+- Include the intended music and sound; the GIF-derived previews are silent.
+- Export 16:9 MP4 at 1920 × 1080 or higher.
 
-`portfolio.mp4` is an 11-second laptop/context clip, with substantial black sections. It is not a full-screen collection reel. The optional viewer starts on a visible scene at 2 seconds while retaining the complete source in native controls.
+The supplied `portfolio.mp4` is an 11-second laptop/context clip with black sections. It is shown inline as context, starting on its visible scene at two seconds. It does not replace the collection montage.
 
-Some supplied motion previews and the illustrated still are only around 800px wide. They are sufficient for the exploration, but original 1080p/4K exports would sharpen the large-screen presentation. This is a quality upgrade to existing media, not an additional placeholder.
+Some supplied previews and the illustrated character still are approximately 800px wide. Original 1080p or 4K exports would sharpen large-screen presentation; existing work is shown in the meantime.
 
-## Editing and checks
+## Files and verification
 
-- `design-b.html`: copy, chapter order, asset paths and montage brief.
-- `design-b.css`: independent responsive layout and visual design.
-- `design-b.js`: motion controls, optional media views, navigation marker and reading progress.
-- `design-switcher.css`: shared A/B tabs. Their short navigation markup is present in all three HTML pages.
+- `design-b.html`: the complete visible story, media and diagrams.
+- `design-b.css`: the visual system, expanded process layouts and responsive rules.
+- `design-b.js`: viewport-aware previews, inline recording behaviour and navigation progress.
+- `design-switcher.css`: the shared A/B navigation.
 
-No framework, install or build step is required. Serve this directory locally or open the HTML directly.
+Browser checks passed at 320, 375, 390, 768, 1024, 1512, 1920 and 2560px without horizontal overflow. All three main navigation links stay available on phones. Verified that there are no accordions, dialogs or modal-only content triggers; all referenced images and anchors resolve.
 
-Browser validation covered 320, 375, 390, 768, 1024, 1512, 1920 and 2560px widths; no page-level horizontal overflow. Checked the original/B navigation, expandable generation comparison, individual/global motion controls, reduced-motion defaults and explicit playback, media viewer playback, Escape, focus return, and stopping media when the viewer closes. Referenced assets loaded without HTTP errors; no page script errors were reported.
-
-All eight media viewers loaded successfully. Also checked pausing offscreen, preserving an individual pause after scrolling and global toggles, retaining the still image when a video fails, and reading the main story without JavaScript. B makes no external network requests.
+All four inline recordings play and pause offscreen. Global pause, persistent individual pause, reduced-motion defaults, content visibility without JavaScript and A/B navigation were verified. No page script errors or missing assets were reported.

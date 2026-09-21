@@ -4,7 +4,7 @@ A local, responsive, single-page portfolio. No framework, build step, API, or ac
 
 ## Preview
 
-**Design B:** open `design-b.html`, or select **B / Visual story** in the global tabs above the navigation. This independent, wide-format alternative tells a shorter story using the supplied artwork and motion previews. See `DESIGN-B.md` for the content audit, media decisions and the one outstanding montage asset.
+**Design B:** open `design-b.html`, or select **B / Visual story** in the global tabs above the navigation. This independent, wide-format alternative pairs a quick visual overview with a complete, always-visible process story. Comparisons, connected AI motion tests and recordings are inline. Keep meaningful content visible unless the user explicitly asks to hide it. See `DESIGN-B.md` for the content map, media decisions and two identified media gaps: the final montage and a readable close-up of the prompt/connector workflow.
 
 Open `index.html` in a browser, or run `python3 -m http.server 8000 --bind 127.0.0.1` from this folder and visit http://127.0.0.1:8000. Google Fonts supplies DM Sans and Inter when online; system fonts provide an offline fallback.
 
