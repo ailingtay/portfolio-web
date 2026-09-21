@@ -10,12 +10,20 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="variables.css">
+  <link rel="stylesheet" href="design-switcher.css">
     <link rel="stylesheet" href="styles.css?v=20260921-timer-a-static">
     <script src="content.js?v=20260921-minimax-h3" defer></script>
     <script src="app.js?v=20260921-timer-a-static" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#work">Skip to work</a>
+  <nav class="design-switcher" aria-label="Design versions">
+    <span class="design-switcher__label">Portfolio explorations</span>
+    <div class="design-switcher__links">
+      <a href="index.html" aria-current="page"><span class="design-switcher__letter">A</span> Original</a>
+      <a href="design-b.html"><span class="design-switcher__letter">B</span> Visual story</a>
+    </div>
+  </nav>
   <header class="site-header"><div class="container header-inner">
     <a href="#top" class="wordmark" aria-label="Back to top"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span id="site-name"></span></a>
     <nav aria-label="Main navigation"><a href="#work">Selected work</a><a href="#test-two">Process</a><a href="#about">About</a></nav>
