@@ -1,0 +1,387 @@
+[
+  {
+    "original": "assets/timer-lab-review/02-timer-app.mp4",
+    "originalBytes": 579557,
+    "desktop": {
+      "src": "assets/timer-lab-review/02-timer-app.mp4",
+      "bytes": 579557,
+      "unchanged": true,
+      "reason": "Less than 10% saving; preserve existing quality"
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/02-timer-app-mobile.mp4",
+      "bytes": 280288,
+      "width": 640,
+      "fps": 23.94,
+      "crf": 26
+    }
+  },
+  {
+    "original": "assets/timer-lab-review/03-ae-plugin.mp4",
+    "originalBytes": 478314,
+    "desktop": {
+      "src": "assets/timer-lab-review/03-ae-plugin.mp4",
+      "bytes": 478314,
+      "unchanged": true
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/03-ae-plugin-mobile.mp4",
+      "bytes": 246196,
+      "width": 640,
+      "fps": 16.94,
+      "crf": 26
+    }
+  },
+  {
+    "original": "assets/design-c/dance-test.mp4",
+    "originalBytes": 658736,
+    "desktop": {
+      "src": "assets/design-c/optimized/dance-test-desktop.mp4",
+      "bytes": 479307,
+      "width": 960,
+      "fps": 24,
+      "crf": 27
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/dance-test-mobile.mp4",
+      "bytes": 258917,
+      "width": 640,
+      "fps": 24,
+      "crf": 26
+    }
+  },
+  {
+    "original": "assets/design-c/dance.mp4",
+    "originalBytes": 2869562,
+    "desktop": {
+      "src": "assets/design-c/optimized/dance-desktop.mp4",
+      "bytes": 2164047,
+      "width": 960,
+      "fps": 24,
+      "crf": 27
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/dance-mobile.mp4",
+      "bytes": 1278500,
+      "width": 640,
+      "fps": 24,
+      "crf": 26
+    }
+  },
+  {
+    "original": "assets/design-c/sprite-prototype.mp4",
+    "originalBytes": 451509,
+    "desktop": {
+      "src": "assets/design-c/optimized/sprite-prototype-desktop.mp4",
+      "bytes": 398802,
+      "width": 960,
+      "fps": 24,
+      "crf": 27
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/sprite-prototype-mobile.mp4",
+      "bytes": 273312,
+      "width": 640,
+      "fps": 24,
+      "crf": 26
+    }
+  },
+  {
+    "original": "assets/design-c/cartoon.mp4",
+    "originalBytes": 1290924,
+    "desktop": {
+      "src": "assets/design-c/cartoon.mp4",
+      "bytes": 1290924,
+      "unchanged": true,
+      "reason": "Less than 10% saving; preserve existing quality"
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/cartoon-mobile.mp4",
+      "bytes": 764266,
+      "width": 640,
+      "fps": 24,
+      "crf": 26
+    }
+  },
+  {
+    "original": "assets/design-c/animal-character-development.mp4",
+    "originalBytes": 7842876,
+    "desktop": {
+      "src": "assets/design-c/optimized/animal-character-development-desktop.mp4",
+      "bytes": 2679571,
+      "width": 640,
+      "fps": 15,
+      "crf": 28
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/animal-character-development-mobile.mp4",
+      "bytes": 1688682,
+      "width": 480,
+      "fps": 15,
+      "crf": 29
+    }
+  },
+  {
+    "original": "assets/design-c/animal-motion-workflow.mp4",
+    "originalBytes": 54974,
+    "desktop": {
+      "src": "assets/design-c/animal-motion-workflow.mp4",
+      "bytes": 54974,
+      "unchanged": true
+    },
+    "mobile": {
+      "src": "assets/design-c/animal-motion-workflow.mp4",
+      "bytes": 54974,
+      "unchanged": true
+    }
+  },
+  {
+    "original": "assets/design-c/animals.mp4",
+    "originalBytes": 892697,
+    "desktop": {
+      "src": "assets/design-c/animals.mp4",
+      "bytes": 892697,
+      "unchanged": true
+    },
+    "mobile": {
+      "src": "assets/design-c/animals.mp4",
+      "bytes": 892697,
+      "unchanged": true
+    }
+  },
+  {
+    "original": "assets/timer-lab-review/06-robot-timer.mp4",
+    "originalBytes": 1671700,
+    "desktop": {
+      "src": "assets/design-c/optimized/06-robot-timer-desktop.mp4",
+      "bytes": 1165905,
+      "width": 960,
+      "fps": 12.0,
+      "crf": 27
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/06-robot-timer-mobile.mp4",
+      "bytes": 583899,
+      "width": 640,
+      "fps": 12.0,
+      "crf": 26
+    }
+  },
+  {
+    "original": "assets/design-c/seascape-process.mp4",
+    "originalBytes": 619553,
+    "desktop": {
+      "src": "assets/design-c/seascape-process.mp4",
+      "bytes": 619553,
+      "unchanged": true,
+      "reason": "Less than 10% saving; preserve existing quality"
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/seascape-process-mobile.mp4",
+      "bytes": 410879,
+      "width": 640,
+      "fps": 24,
+      "crf": 26
+    }
+  },
+  {
+    "original": "assets/design-c/seascape.mp4",
+    "originalBytes": 1934269,
+    "desktop": {
+      "src": "assets/design-c/optimized/seascape-desktop.mp4",
+      "bytes": 1435376,
+      "width": 960,
+      "fps": 24,
+      "crf": 27
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/seascape-mobile.mp4",
+      "bytes": 821443,
+      "width": 640,
+      "fps": 24,
+      "crf": 26
+    }
+  },
+  {
+    "original": "assets/design-c/watercolour.mp4",
+    "originalBytes": 664475,
+    "desktop": {
+      "src": "assets/design-c/watercolour.mp4",
+      "bytes": 664475,
+      "unchanged": true
+    },
+    "mobile": {
+      "src": "assets/design-c/watercolour.mp4",
+      "bytes": 664475,
+      "unchanged": true
+    }
+  },
+  {
+    "original": "assets/design-c/dinosaurs.mp4",
+    "originalBytes": 1811520,
+    "desktop": {
+      "src": "assets/design-c/dinosaurs.mp4",
+      "bytes": 1811520,
+      "unchanged": true
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/dinosaurs-mobile.mp4",
+      "bytes": 1269772,
+      "width": 640,
+      "fps": 24,
+      "crf": 26
+    }
+  },
+  {
+    "original": "assets/timer-lab-review/05-owl-bad-1.mp4",
+    "originalBytes": 1654403,
+    "desktop": {
+      "src": "assets/design-c/optimized/05-owl-bad-1-desktop.mp4",
+      "bytes": 893320,
+      "width": 800,
+      "fps": 24,
+      "crf": 27
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/05-owl-bad-1-mobile.mp4",
+      "bytes": 618966,
+      "width": 640,
+      "fps": 24,
+      "crf": 26
+    }
+  },
+  {
+    "original": "assets/timer-lab-review/05-owl-bad-2.mp4",
+    "originalBytes": 1109143,
+    "desktop": {
+      "src": "assets/design-c/optimized/05-owl-bad-2-desktop.mp4",
+      "bytes": 559361,
+      "width": 800,
+      "fps": 24,
+      "crf": 27
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/05-owl-bad-2-mobile.mp4",
+      "bytes": 423378,
+      "width": 640,
+      "fps": 24,
+      "crf": 26
+    }
+  },
+  {
+    "original": "assets/timer-lab-review/05-owl-approved.mp4",
+    "originalBytes": 985879,
+    "desktop": {
+      "src": "assets/design-c/optimized/05-owl-approved-desktop.mp4",
+      "bytes": 495315,
+      "width": 800,
+      "fps": 24,
+      "crf": 27
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/05-owl-approved-mobile.mp4",
+      "bytes": 364997,
+      "width": 640,
+      "fps": 24,
+      "crf": 26
+    }
+  },
+  {
+    "original": "assets/timer-lab-review/05-node.mp4",
+    "originalBytes": 281976,
+    "desktop": {
+      "src": "assets/timer-lab-review/05-node.mp4",
+      "bytes": 281976,
+      "unchanged": true
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/05-node-mobile.mp4",
+      "bytes": 212133,
+      "width": 640,
+      "fps": 23.87,
+      "crf": 26
+    }
+  },
+  {
+    "original": "assets/timer-lab-review/05-final.mp4",
+    "originalBytes": 1125402,
+    "desktop": {
+      "src": "assets/timer-lab-review/05-final.mp4",
+      "bytes": 1125402,
+      "unchanged": true
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/05-final-mobile.mp4",
+      "bytes": 587260,
+      "width": 640,
+      "fps": 24,
+      "crf": 26
+    }
+  },
+  {
+    "original": "assets/design-c/space.mp4",
+    "originalBytes": 1041170,
+    "desktop": {
+      "src": "assets/design-c/optimized/space-desktop.mp4",
+      "bytes": 807143,
+      "width": 960,
+      "fps": 24,
+      "crf": 27
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/space-mobile.mp4",
+      "bytes": 440467,
+      "width": 640,
+      "fps": 24,
+      "crf": 26
+    }
+  },
+  {
+    "original": "assets/design-c/rocket.mp4",
+    "originalBytes": 1920483,
+    "desktop": {
+      "src": "assets/design-c/optimized/rocket-desktop.mp4",
+      "bytes": 1602188,
+      "width": 960,
+      "fps": 24,
+      "crf": 27
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/rocket-mobile.mp4",
+      "bytes": 1055114,
+      "width": 640,
+      "fps": 24,
+      "crf": 26
+    }
+  },
+  {
+    "original": "assets/design-c/blocks.mp4",
+    "originalBytes": 347889,
+    "desktop": {
+      "src": "assets/design-c/blocks.mp4",
+      "bytes": 347889,
+      "unchanged": true
+    },
+    "mobile": {
+      "src": "assets/design-c/blocks.mp4",
+      "bytes": 347889,
+      "unchanged": true
+    }
+  },
+  {
+    "original": "assets/design-c/medieval.mp4",
+    "originalBytes": 1021432,
+    "desktop": {
+      "src": "assets/design-c/medieval.mp4",
+      "bytes": 1021432,
+      "unchanged": true
+    },
+    "mobile": {
+      "src": "assets/design-c/optimized/medieval-mobile.mp4",
+      "bytes": 977066,
+      "width": 640,
+      "fps": 24,
+      "crf": 26
+    }
+  }
+]

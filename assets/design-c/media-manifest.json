@@ -1,0 +1,464 @@
+[
+  {
+    "file": "003-screenshot.webp",
+    "source": "003-shapes/003-screenshot.png",
+    "kind": "still",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "file": "004-screenshot.webp",
+    "source": "004-disco dance/004-screenshot.png",
+    "kind": "still",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "file": "004-workflow-1-drawn-character.webp",
+    "source": "004-disco dance/004-workflow 1 (drawn character).png",
+    "kind": "still",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "file": "006-screenshot.webp",
+    "source": "006-colourful cartoon/006-screenshot.png",
+    "kind": "still",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "file": "006-workflow-1-inspiration.webp",
+    "source": "006-colourful cartoon/006-workflow 1 (inspiration).png",
+    "kind": "still",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "file": "006-workflow-2-final-characters.webp",
+    "source": "006-colourful cartoon/006-workflow 2 (final characters).png",
+    "kind": "still",
+    "width": 763,
+    "height": 691
+  },
+  {
+    "file": "006-workflow-3-claude-to-create-sprite.webp",
+    "source": "006-colourful cartoon/006-workflow 3 (claude to create sprite).png",
+    "kind": "still",
+    "width": 1323,
+    "height": 800
+  },
+  {
+    "file": "006-workflow-4-all-sprites.webp",
+    "source": "006-colourful cartoon/006-workflow 4 (all sprites).png",
+    "kind": "still",
+    "width": 996,
+    "height": 425
+  },
+  {
+    "file": "006-workflow-5-all-sprites.webp",
+    "source": "006-colourful cartoon/006-workflow 5 (all sprites).png",
+    "kind": "still",
+    "width": 1316,
+    "height": 910
+  },
+  {
+    "file": "009-screenshot.webp",
+    "source": "009-space/009-screenshot.png",
+    "kind": "still",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "file": "009-workflow-1-inspiration.webp",
+    "source": "009-space/009-workflow 1 (inspiration).webp",
+    "kind": "still",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "file": "009-workflow-2-asset-generation.webp",
+    "source": "009-space/009-workflow 2 (asset generation).png",
+    "kind": "still",
+    "width": 687,
+    "height": 804
+  },
+  {
+    "file": "009-workflow-3-video-generation.webp",
+    "source": "009-space/009-workflow 3 (video generation).png",
+    "kind": "still",
+    "width": 1067,
+    "height": 1200
+  },
+  {
+    "file": "009-workflow-4-animation-with-claude.webp",
+    "source": "009-space/009-workflow 4 (animation with claude).png",
+    "kind": "still",
+    "width": 1182,
+    "height": 1200
+  },
+  {
+    "file": "011-screenshot.webp",
+    "source": "011-watercolour/011-screenshot.png",
+    "kind": "still",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "file": "011-workflow-1-prepping-assets.webp",
+    "source": "011-watercolour/011-workflow 1 (prepping assets).png",
+    "kind": "still",
+    "width": 590,
+    "height": 402
+  },
+  {
+    "file": "011-workflow-2-animating-with-claude.webp",
+    "source": "011-watercolour/011-workflow 2 (animating with claude).png",
+    "kind": "still",
+    "width": 1386,
+    "height": 1200
+  },
+  {
+    "file": "012-screenshot.webp",
+    "source": "012-seascape/012-screenshot.png",
+    "kind": "still",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "file": "012-workflow-1-assets.webp",
+    "source": "012-seascape/012-workflow 1 (assets).png",
+    "kind": "still",
+    "width": 1600,
+    "height": 1032
+  },
+  {
+    "file": "012-workflow-3-still.webp",
+    "source": "012-seascape/012-workflow 3 (still).png",
+    "kind": "still",
+    "width": 1600,
+    "height": 916
+  },
+  {
+    "file": "016-screenshot.webp",
+    "source": "016-rocket/016-screenshot.png",
+    "kind": "still",
+    "width": 1600,
+    "height": 899
+  },
+  {
+    "file": "016-workflow-1-assets.webp",
+    "source": "016-rocket/016-workflow 1 (assets).jpg",
+    "kind": "still",
+    "width": 1600,
+    "height": 487
+  },
+  {
+    "file": "016-workflow-3-animating-with-claude.webp",
+    "source": "016-rocket/016-workflow 3 (animating with claude).png",
+    "kind": "still",
+    "width": 1241,
+    "height": 1200
+  },
+  {
+    "file": "018-screenshot.webp",
+    "source": "018-clouds/018-screenshot.png",
+    "kind": "still",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "file": "018-workflow-1-exsiting-footage-from-gettypng.webp",
+    "source": "018-clouds/018-workflow 1 (exsiting footage from getty)png.png",
+    "kind": "still",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "file": "018-workflow-2-generation.webp",
+    "source": "018-clouds/018-workflow 2 (generation).png",
+    "kind": "still",
+    "width": 1600,
+    "height": 1059
+  },
+  {
+    "file": "018-workflow-3-planning-with-claude.webp",
+    "source": "018-clouds/018-workflow 3 (planning with claude).png",
+    "kind": "still",
+    "width": 1600,
+    "height": 797
+  },
+  {
+    "file": "020-workflow-1.webp",
+    "source": "020-lego blocks/020-workflow 1.png",
+    "kind": "still",
+    "width": 1600,
+    "height": 912
+  },
+  {
+    "file": "020-workflow-2.webp",
+    "source": "020-lego blocks/020-workflow 2.png",
+    "kind": "still",
+    "width": 1600,
+    "height": 913
+  },
+  {
+    "file": "020-workflow-3.webp",
+    "source": "020-lego blocks/020-workflow 3.png",
+    "kind": "still",
+    "width": 1600,
+    "height": 913
+  },
+  {
+    "file": "020-workflow-4.webp",
+    "source": "020-lego blocks/020-workflow 4.png",
+    "kind": "still",
+    "width": 1600,
+    "height": 917
+  },
+  {
+    "file": "023-workflow-1-ideation-approved-grok.webp",
+    "source": "023-dinosaurs/023-workflow 1 (ideation approved grok).png",
+    "kind": "still",
+    "width": 1600,
+    "height": 893
+  },
+  {
+    "file": "023-workflow-1-ideation-rejected-chatgpt.webp",
+    "source": "023-dinosaurs/023-workflow 1 (ideation rejected chatgpt).png",
+    "kind": "still",
+    "width": 1456,
+    "height": 816
+  },
+  {
+    "file": "023-workflow-1-ideation-rejected-gemini.webp",
+    "source": "023-dinosaurs/023-workflow 1 (ideation rejected gemini).png",
+    "kind": "still",
+    "width": 1024,
+    "height": 572
+  },
+  {
+    "file": "023-workflow-1-ideation-rejected-seedance.webp",
+    "source": "023-dinosaurs/023-workflow 1 (ideation rejected seedance).png",
+    "kind": "still",
+    "width": 1376,
+    "height": 768
+  },
+  {
+    "file": "023-workflow-1-ideation.webp",
+    "source": "023-dinosaurs/023-workflow 1 (ideation).png",
+    "kind": "still",
+    "width": 1420,
+    "height": 991
+  },
+  {
+    "file": "023-workflow-2-isolating-assets-2.webp",
+    "source": "023-dinosaurs/023-workflow 2 (isolating assets 2).png",
+    "kind": "still",
+    "width": 1600,
+    "height": 450
+  },
+  {
+    "file": "023-workflow-2-isolating-assets.webp",
+    "source": "023-dinosaurs/023-workflow 2 (isolating assets).png",
+    "kind": "still",
+    "width": 1600,
+    "height": 981
+  },
+  {
+    "file": "023-workflow-3-generation-failed.webp",
+    "source": "023-dinosaurs/023-workflow 3 (generation-failed).png",
+    "kind": "still",
+    "width": 1359,
+    "height": 1134
+  },
+  {
+    "file": "030-screenshot.webp",
+    "source": "030-medieval/030-screenshot.png",
+    "kind": "still",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "file": "030-workflow-2-final-assets.webp",
+    "source": "030-medieval/030-workflow 2 (final assets).png",
+    "kind": "still",
+    "width": 1600,
+    "height": 1027
+  },
+  {
+    "file": "030-worklow-1-ideation-2.webp",
+    "source": "030-medieval/030-worklow 1 (ideation 2).png",
+    "kind": "still",
+    "width": 1600,
+    "height": 740
+  },
+  {
+    "file": "030-worklow-1-ideation.webp",
+    "source": "030-medieval/030-worklow 1 (ideation).png",
+    "kind": "still",
+    "width": 1358,
+    "height": 630
+  },
+  {
+    "file": "035-screenshot.webp",
+    "source": "035-robots/035-screenshot.png",
+    "kind": "still",
+    "width": 1018,
+    "height": 564
+  },
+  {
+    "file": "035-workflow-1-ideation-w-midjourney.webp",
+    "source": "035-robots/035-workflow 1 (ideation w midjourney).png",
+    "kind": "still",
+    "width": 1232,
+    "height": 928
+  },
+  {
+    "file": "035-workflow-2-finalising-asset-with-illustration.webp",
+    "source": "035-robots/035-workflow 2 (finalising asset with illustration).png",
+    "kind": "still",
+    "width": 1600,
+    "height": 1194
+  },
+  {
+    "file": "035-workflow-3-generation.webp",
+    "source": "035-robots/035-workflow 3 (generation).png",
+    "kind": "still",
+    "width": 1600,
+    "height": 800
+  },
+  {
+    "file": "036-screenshot.webp",
+    "source": "036-rain window/036-screenshot.png",
+    "kind": "still",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "file": "040-reference.webp",
+    "source": "040-hogwarts/040-reference.png",
+    "kind": "still",
+    "width": 1600,
+    "height": 393
+  },
+  {
+    "file": "040-screenshot.webp",
+    "source": "040-hogwarts/040-screenshot.png",
+    "kind": "still",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "file": "043-screenshot.webp",
+    "source": "043-paper/043-screenshot.png",
+    "kind": "still",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "file": "dance.mp4",
+    "source": "004-disco dance/004-1min disco dance.webm",
+    "kind": "motion preview",
+    "speed": "source speed",
+    "duration": "up to 24 seconds; silent"
+  },
+  {
+    "file": "dance-test.mp4",
+    "source": "004-disco dance/004-workflow 2 (generation 5).gif",
+    "kind": "motion preview",
+    "speed": "source speed",
+    "duration": "up to 24 seconds; silent"
+  },
+  {
+    "file": "cartoon.mp4",
+    "source": "006-colourful cartoon/006-2min colourful cartoon (5x).gif",
+    "kind": "motion preview",
+    "speed": "5\u00d7 source preview",
+    "duration": "up to 24 seconds; silent"
+  },
+  {
+    "file": "sprite-prototype.mp4",
+    "source": "006-colourful cartoon/006-workflow 6 (prototyping animation).webm",
+    "kind": "motion preview",
+    "speed": "source speed",
+    "duration": "up to 24 seconds; silent"
+  },
+  {
+    "file": "space.mp4",
+    "source": "009-space/009-3 min space walk (5x).gif",
+    "kind": "motion preview",
+    "speed": "5\u00d7 source preview",
+    "duration": "up to 24 seconds; silent"
+  },
+  {
+    "file": "watercolour.mp4",
+    "source": "011-watercolour/011-4min watercolour (5x).gif",
+    "kind": "motion preview",
+    "speed": "5\u00d7 source preview",
+    "duration": "up to 24 seconds; silent"
+  },
+  {
+    "file": "seascape.mp4",
+    "source": "012-seascape/012-5min seascape (5x).gif",
+    "kind": "motion preview",
+    "speed": "5\u00d7 source preview",
+    "duration": "up to 24 seconds; silent"
+  },
+  {
+    "file": "seascape-process.mp4",
+    "source": "012-seascape/012-workflow 3 (animating with claude).webm",
+    "kind": "motion preview",
+    "speed": "source speed",
+    "duration": "up to 24 seconds; silent"
+  },
+  {
+    "file": "animals.mp4",
+    "source": "013-animal dance/013-5min animal cartoon (5x).gif",
+    "kind": "motion preview",
+    "speed": "5\u00d7 source preview",
+    "duration": "up to 24 seconds; silent"
+  },
+  {
+    "file": "rocket.mp4",
+    "source": "016-rocket/016-5 min space (5x).gif",
+    "kind": "motion preview",
+    "speed": "5\u00d7 source preview",
+    "duration": "up to 24 seconds; silent"
+  },
+  {
+    "file": "blocks.mp4",
+    "source": "020-lego blocks/020-8min blocks (5x).gif",
+    "kind": "motion preview",
+    "speed": "5\u00d7 source preview",
+    "duration": "up to 24 seconds; silent"
+  },
+  {
+    "file": "dinosaurs.mp4",
+    "source": "023-dinosaurs/023-10min dinosaurs (5x).gif",
+    "kind": "motion preview",
+    "speed": "5\u00d7 source preview",
+    "duration": "up to 24 seconds; silent"
+  },
+  {
+    "file": "medieval.mp4",
+    "source": "030-medieval/030-15min medieval (5x).gif",
+    "kind": "motion preview",
+    "speed": "5\u00d7 source preview",
+    "duration": "up to 24 seconds; silent"
+  },
+  {
+    "file": "animal-character-development.mp4",
+    "source": "013-animal dance/013-workflow 1 (image generation via midjourney).mp4",
+    "kind": "character development recording",
+    "speed": "source speed",
+    "duration": "full source recording; silent"
+  },
+  {
+    "file": "animal-motion-workflow.mp4",
+    "source": "013-animal dance/013-workflow.gif",
+    "kind": "motion workflow recording",
+    "speed": "source speed",
+    "duration": "full source recording; silent"
+  }
+]

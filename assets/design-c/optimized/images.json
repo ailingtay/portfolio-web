@@ -1,0 +1,825 @@
+[
+  {
+    "original": "assets/timer-lab-review/02-timer-app.jpg",
+    "originalBytes": 47589,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/02-timer-app-fbb29d-480.webp",
+        "width": 480,
+        "bytes": 5922
+      },
+      {
+        "src": "assets/timer-lab-review/02-timer-app.jpg",
+        "width": 960,
+        "bytes": 47589
+      }
+    ]
+  },
+  {
+    "original": "assets/timer-lab-review/03-ae-plugin.jpg",
+    "originalBytes": 48851,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/03-ae-plugin-fdb40a-480.webp",
+        "width": 480,
+        "bytes": 6330
+      },
+      {
+        "src": "assets/timer-lab-review/03-ae-plugin.jpg",
+        "width": 960,
+        "bytes": 48851
+      }
+    ]
+  },
+  {
+    "original": "assets/design-b/drawing-640.webp",
+    "originalBytes": 15272,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/drawing-640-b35505-480.webp",
+        "width": 480,
+        "bytes": 9230
+      },
+      {
+        "src": "assets/design-b/drawing-640.webp",
+        "width": 640,
+        "bytes": 15272
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/dance-test-poster.webp",
+    "originalBytes": 24232,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/dance-test-poster-2e3745-480.webp",
+        "width": 480,
+        "bytes": 13776
+      },
+      {
+        "src": "assets/design-c/dance-test-poster.webp",
+        "width": 960,
+        "bytes": 24232
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/dance-poster.webp",
+    "originalBytes": 8814,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/dance-poster-5d953f-480.webp",
+        "width": 480,
+        "bytes": 4648
+      },
+      {
+        "src": "assets/design-c/dance-poster.webp",
+        "width": 960,
+        "bytes": 8814
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/006-workflow-2-final-characters.webp",
+    "originalBytes": 21454,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/006-workflow-2-final-characters-868a03-480.webp",
+        "width": 480,
+        "bytes": 10646
+      },
+      {
+        "src": "assets/design-c/006-workflow-2-final-characters.webp",
+        "width": 763,
+        "bytes": 21454
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/006-workflow-3-claude-to-create-sprite.webp",
+    "originalBytes": 39952,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/006-workflow-3-claude-to-create-sprite-a21390-480.webp",
+        "width": 480,
+        "bytes": 8216
+      },
+      {
+        "src": "assets/design-c/optimized/006-workflow-3-claude-to-create-sprite-a21390-960.webp",
+        "width": 959,
+        "bytes": 23208
+      },
+      {
+        "src": "assets/design-c/006-workflow-3-claude-to-create-sprite.webp",
+        "width": 1323,
+        "bytes": 39952
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/006-screenshot.webp",
+    "originalBytes": 65762,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/006-screenshot-9f2af5-480.webp",
+        "width": 480,
+        "bytes": 14970
+      },
+      {
+        "src": "assets/design-c/optimized/006-screenshot-9f2af5-960.webp",
+        "width": 960,
+        "bytes": 32316
+      },
+      {
+        "src": "assets/design-c/006-screenshot.webp",
+        "width": 1600,
+        "bytes": 65762
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/006-workflow-3-claude-to-create-sprite.webp",
+    "originalBytes": 39952,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/006-workflow-3-claude-to-create-sprite-a21390-480.webp",
+        "width": 480,
+        "bytes": 8216
+      },
+      {
+        "src": "assets/design-c/optimized/006-workflow-3-claude-to-create-sprite-a21390-960.webp",
+        "width": 959,
+        "bytes": 23208
+      },
+      {
+        "src": "assets/design-c/006-workflow-3-claude-to-create-sprite.webp",
+        "width": 1323,
+        "bytes": 39952
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/006-workflow-5-all-sprites.webp",
+    "originalBytes": 64390,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/006-workflow-5-all-sprites-b53a2a-480.webp",
+        "width": 480,
+        "bytes": 14794
+      },
+      {
+        "src": "assets/design-c/optimized/006-workflow-5-all-sprites-b53a2a-960.webp",
+        "width": 960,
+        "bytes": 38712
+      },
+      {
+        "src": "assets/design-c/006-workflow-5-all-sprites.webp",
+        "width": 1316,
+        "bytes": 64390
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/animal-character-development-poster.webp",
+    "originalBytes": 45112,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/animal-character-development-poster-d589a0-480.webp",
+        "width": 480,
+        "bytes": 32090
+      },
+      {
+        "src": "assets/design-c/animal-character-development-poster.webp",
+        "width": 890,
+        "bytes": 45112
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/animal-motion-workflow-poster.webp",
+    "originalBytes": 17988,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/animal-motion-workflow-poster-c442cc-480.webp",
+        "width": 480,
+        "bytes": 10264
+      },
+      {
+        "src": "assets/design-c/animal-motion-workflow-poster.webp",
+        "width": 890,
+        "bytes": 17988
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/animals-poster.webp",
+    "originalBytes": 72856,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/animals-poster-3065dc-480.webp",
+        "width": 480,
+        "bytes": 36260
+      },
+      {
+        "src": "assets/design-c/animals-poster.webp",
+        "width": 960,
+        "bytes": 72856
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/035-workflow-1-ideation-w-midjourney.webp",
+    "originalBytes": 33024,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/035-workflow-1-ideation-w-midjourney-9ce615-480.webp",
+        "width": 480,
+        "bytes": 5642
+      },
+      {
+        "src": "assets/design-c/optimized/035-workflow-1-ideation-w-midjourney-9ce615-960.webp",
+        "width": 960,
+        "bytes": 16872
+      },
+      {
+        "src": "assets/design-c/035-workflow-1-ideation-w-midjourney.webp",
+        "width": 1232,
+        "bytes": 33024
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/035-workflow-2-finalising-asset-with-illustration.webp",
+    "originalBytes": 26346,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/035-workflow-2-finalising-asset-with-illustration-f16518-480.webp",
+        "width": 480,
+        "bytes": 4606
+      },
+      {
+        "src": "assets/design-c/optimized/035-workflow-2-finalising-asset-with-illustration-f16518-960.webp",
+        "width": 959,
+        "bytes": 10928
+      },
+      {
+        "src": "assets/design-c/035-workflow-2-finalising-asset-with-illustration.webp",
+        "width": 1600,
+        "bytes": 26346
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/035-screenshot.webp",
+    "originalBytes": 40300,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/035-screenshot-b5ec72-480.webp",
+        "width": 480,
+        "bytes": 10382
+      },
+      {
+        "src": "assets/design-c/optimized/035-screenshot-b5ec72-960.webp",
+        "width": 960,
+        "bytes": 27364
+      },
+      {
+        "src": "assets/design-c/035-screenshot.webp",
+        "width": 1018,
+        "bytes": 40300
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/035-workflow-3-generation.webp",
+    "originalBytes": 41166,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/035-workflow-3-generation-94df43-480.webp",
+        "width": 480,
+        "bytes": 8584
+      },
+      {
+        "src": "assets/design-c/optimized/035-workflow-3-generation-94df43-960.webp",
+        "width": 960,
+        "bytes": 19716
+      },
+      {
+        "src": "assets/design-c/035-workflow-3-generation.webp",
+        "width": 1600,
+        "bytes": 41166
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/012-workflow-1-assets.webp",
+    "originalBytes": 23872,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/012-workflow-1-assets-9e85c7-480.webp",
+        "width": 480,
+        "bytes": 4090
+      },
+      {
+        "src": "assets/design-c/optimized/012-workflow-1-assets-9e85c7-960.webp",
+        "width": 960,
+        "bytes": 10820
+      },
+      {
+        "src": "assets/design-c/012-workflow-1-assets.webp",
+        "width": 1600,
+        "bytes": 23872
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/012-workflow-3-still.webp",
+    "originalBytes": 112176,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/012-workflow-3-still-115f7f-480.webp",
+        "width": 480,
+        "bytes": 13186
+      },
+      {
+        "src": "assets/design-c/optimized/012-workflow-3-still-115f7f-960.webp",
+        "width": 960,
+        "bytes": 47404
+      },
+      {
+        "src": "assets/design-c/012-workflow-3-still.webp",
+        "width": 1600,
+        "bytes": 112176
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/012-screenshot.webp",
+    "originalBytes": 79860,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/012-screenshot-5c57d1-480.webp",
+        "width": 480,
+        "bytes": 13654
+      },
+      {
+        "src": "assets/design-c/optimized/012-screenshot-5c57d1-960.webp",
+        "width": 960,
+        "bytes": 37706
+      },
+      {
+        "src": "assets/design-c/012-screenshot.webp",
+        "width": 1600,
+        "bytes": 79860
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/011-screenshot.webp",
+    "originalBytes": 169228,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/011-screenshot-d608e9-480.webp",
+        "width": 480,
+        "bytes": 14994
+      },
+      {
+        "src": "assets/design-c/optimized/011-screenshot-d608e9-960.webp",
+        "width": 960,
+        "bytes": 56402
+      },
+      {
+        "src": "assets/design-c/011-screenshot.webp",
+        "width": 1600,
+        "bytes": 169228
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/023-workflow-1-ideation-rejected-chatgpt.webp",
+    "originalBytes": 216920,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/023-workflow-1-ideation-rejected-chatgpt-c6affa-480.webp",
+        "width": 480,
+        "bytes": 31608
+      },
+      {
+        "src": "assets/design-c/optimized/023-workflow-1-ideation-rejected-chatgpt-c6affa-960.webp",
+        "width": 960,
+        "bytes": 99164
+      },
+      {
+        "src": "assets/design-c/023-workflow-1-ideation-rejected-chatgpt.webp",
+        "width": 1456,
+        "bytes": 216920
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/023-workflow-1-ideation-rejected-gemini.webp",
+    "originalBytes": 156848,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/023-workflow-1-ideation-rejected-gemini-d834fb-480.webp",
+        "width": 480,
+        "bytes": 40910
+      },
+      {
+        "src": "assets/design-c/optimized/023-workflow-1-ideation-rejected-gemini-d834fb-960.webp",
+        "width": 960,
+        "bytes": 121568
+      },
+      {
+        "src": "assets/design-c/023-workflow-1-ideation-rejected-gemini.webp",
+        "width": 1024,
+        "bytes": 156848
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/023-workflow-1-ideation-rejected-seedance.webp",
+    "originalBytes": 198974,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/023-workflow-1-ideation-rejected-seedance-87bc80-480.webp",
+        "width": 480,
+        "bytes": 31504
+      },
+      {
+        "src": "assets/design-c/optimized/023-workflow-1-ideation-rejected-seedance-87bc80-960.webp",
+        "width": 960,
+        "bytes": 88156
+      },
+      {
+        "src": "assets/design-c/023-workflow-1-ideation-rejected-seedance.webp",
+        "width": 1376,
+        "bytes": 198974
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/023-workflow-1-ideation-approved-grok.webp",
+    "originalBytes": 192378,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/023-workflow-1-ideation-approved-grok-3a7426-480.webp",
+        "width": 480,
+        "bytes": 35848
+      },
+      {
+        "src": "assets/design-c/optimized/023-workflow-1-ideation-approved-grok-3a7426-960.webp",
+        "width": 960,
+        "bytes": 94744
+      },
+      {
+        "src": "assets/design-c/023-workflow-1-ideation-approved-grok.webp",
+        "width": 1600,
+        "bytes": 192378
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/023-workflow-2-isolating-assets.webp",
+    "originalBytes": 205708,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/023-workflow-2-isolating-assets-d92904-480.webp",
+        "width": 480,
+        "bytes": 32668
+      },
+      {
+        "src": "assets/design-c/optimized/023-workflow-2-isolating-assets-d92904-960.webp",
+        "width": 960,
+        "bytes": 93236
+      },
+      {
+        "src": "assets/design-c/023-workflow-2-isolating-assets.webp",
+        "width": 1600,
+        "bytes": 205708
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/023-workflow-3-generation-failed.webp",
+    "originalBytes": 95320,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/023-workflow-3-generation-failed-99a02b-480.webp",
+        "width": 480,
+        "bytes": 12724
+      },
+      {
+        "src": "assets/design-c/optimized/023-workflow-3-generation-failed-99a02b-960.webp",
+        "width": 960,
+        "bytes": 37144
+      },
+      {
+        "src": "assets/design-c/023-workflow-3-generation-failed.webp",
+        "width": 1359,
+        "bytes": 95320
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/dinosaurs-poster.webp",
+    "originalBytes": 62070,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/dinosaurs-poster-f09358-480.webp",
+        "width": 480,
+        "bytes": 31996
+      },
+      {
+        "src": "assets/design-c/dinosaurs-poster.webp",
+        "width": 960,
+        "bytes": 62070
+      }
+    ]
+  },
+  {
+    "original": "assets/timer-lab-review/05-owl-bad-1.jpg",
+    "originalBytes": 86048,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/05-owl-bad-1-b3ed19-480.webp",
+        "width": 480,
+        "bytes": 21426
+      },
+      {
+        "src": "assets/timer-lab-review/05-owl-bad-1.jpg",
+        "width": 800,
+        "bytes": 86048
+      }
+    ]
+  },
+  {
+    "original": "assets/timer-lab-review/05-owl-bad-2.jpg",
+    "originalBytes": 33069,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/05-owl-bad-2-db8147-480.webp",
+        "width": 480,
+        "bytes": 7918
+      },
+      {
+        "src": "assets/timer-lab-review/05-owl-bad-2.jpg",
+        "width": 800,
+        "bytes": 33069
+      }
+    ]
+  },
+  {
+    "original": "assets/timer-lab-review/05-owl-approved.jpg",
+    "originalBytes": 35140,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/05-owl-approved-640f2f-480.webp",
+        "width": 480,
+        "bytes": 8510
+      },
+      {
+        "src": "assets/timer-lab-review/05-owl-approved.jpg",
+        "width": 800,
+        "bytes": 35140
+      }
+    ]
+  },
+  {
+    "original": "assets/timer-lab-review/05-node.jpg",
+    "originalBytes": 108340,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/05-node-25f1b7-480.webp",
+        "width": 479,
+        "bytes": 16372
+      },
+      {
+        "src": "assets/timer-lab-review/05-node.jpg",
+        "width": 960,
+        "bytes": 108340
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/040-screenshot.webp",
+    "originalBytes": 126722,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/040-screenshot-a0b69e-480.webp",
+        "width": 480,
+        "bytes": 23574
+      },
+      {
+        "src": "assets/design-c/optimized/040-screenshot-a0b69e-960.webp",
+        "width": 960,
+        "bytes": 58462
+      },
+      {
+        "src": "assets/design-c/040-screenshot.webp",
+        "width": 1600,
+        "bytes": 126722
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/009-screenshot.webp",
+    "originalBytes": 59748,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/009-screenshot-87b095-480.webp",
+        "width": 480,
+        "bytes": 10992
+      },
+      {
+        "src": "assets/design-c/optimized/009-screenshot-87b095-960.webp",
+        "width": 960,
+        "bytes": 27488
+      },
+      {
+        "src": "assets/design-c/009-screenshot.webp",
+        "width": 1600,
+        "bytes": 59748
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/016-screenshot.webp",
+    "originalBytes": 37370,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/016-screenshot-b27e74-480.webp",
+        "width": 480,
+        "bytes": 8366
+      },
+      {
+        "src": "assets/design-c/optimized/016-screenshot-b27e74-960.webp",
+        "width": 959,
+        "bytes": 18610
+      },
+      {
+        "src": "assets/design-c/016-screenshot.webp",
+        "width": 1600,
+        "bytes": 37370
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/animals-poster.webp",
+    "originalBytes": 72856,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/animals-poster-3065dc-480.webp",
+        "width": 480,
+        "bytes": 36260
+      },
+      {
+        "src": "assets/design-c/animals-poster.webp",
+        "width": 960,
+        "bytes": 72856
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/blocks-poster.webp",
+    "originalBytes": 19010,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/blocks-poster-b37ff3-480.webp",
+        "width": 480,
+        "bytes": 13482
+      },
+      {
+        "src": "assets/design-c/blocks-poster.webp",
+        "width": 960,
+        "bytes": 19010
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/030-screenshot.webp",
+    "originalBytes": 215116,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/030-screenshot-ae15b6-480.webp",
+        "width": 480,
+        "bytes": 26762
+      },
+      {
+        "src": "assets/design-c/optimized/030-screenshot-ae15b6-960.webp",
+        "width": 960,
+        "bytes": 82494
+      },
+      {
+        "src": "assets/design-c/030-screenshot.webp",
+        "width": 1600,
+        "bytes": 215116
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/011-screenshot.webp",
+    "originalBytes": 169228,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/011-screenshot-d608e9-480.webp",
+        "width": 480,
+        "bytes": 14994
+      },
+      {
+        "src": "assets/design-c/optimized/011-screenshot-d608e9-960.webp",
+        "width": 960,
+        "bytes": 56402
+      },
+      {
+        "src": "assets/design-c/011-screenshot.webp",
+        "width": 1600,
+        "bytes": 169228
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/003-screenshot.webp",
+    "originalBytes": 42202,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/003-screenshot-71dcc3-480.webp",
+        "width": 480,
+        "bytes": 3792
+      },
+      {
+        "src": "assets/design-c/optimized/003-screenshot-71dcc3-960.webp",
+        "width": 960,
+        "bytes": 8920
+      },
+      {
+        "src": "assets/design-c/003-screenshot.webp",
+        "width": 1600,
+        "bytes": 42202
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/018-screenshot.webp",
+    "originalBytes": 35022,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/018-screenshot-70c5a5-480.webp",
+        "width": 480,
+        "bytes": 8462
+      },
+      {
+        "src": "assets/design-c/optimized/018-screenshot-70c5a5-960.webp",
+        "width": 960,
+        "bytes": 17842
+      },
+      {
+        "src": "assets/design-c/018-screenshot.webp",
+        "width": 1600,
+        "bytes": 35022
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/036-screenshot.webp",
+    "originalBytes": 93048,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/036-screenshot-b45e24-480.webp",
+        "width": 480,
+        "bytes": 12408
+      },
+      {
+        "src": "assets/design-c/optimized/036-screenshot-b45e24-960.webp",
+        "width": 960,
+        "bytes": 36252
+      },
+      {
+        "src": "assets/design-c/036-screenshot.webp",
+        "width": 1600,
+        "bytes": 93048
+      }
+    ]
+  },
+  {
+    "original": "assets/design-c/043-screenshot.webp",
+    "originalBytes": 65042,
+    "variants": [
+      {
+        "src": "assets/design-c/optimized/043-screenshot-1ccaf4-480.webp",
+        "width": 480,
+        "bytes": 14176
+      },
+      {
+        "src": "assets/design-c/optimized/043-screenshot-1ccaf4-960.webp",
+        "width": 960,
+        "bytes": 31018
+      },
+      {
+        "src": "assets/design-c/043-screenshot.webp",
+        "width": 1600,
+        "bytes": 65042
+      }
+    ]
+  }
+]
