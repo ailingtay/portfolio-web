@@ -10,29 +10,52 @@ B now contains no accordions or dialogs. The hero tiles and overview links jump 
 
 ## Two reading speeds, one open page
 
-The opening is now an open-studio composition, led by “What happens if I try this?” Original artwork and a green-screen motion test sit beside their finished timer. A second branch shows the real connected canvas and an explicitly labelled owl-direction summary. This makes process, discovery and experimentation the first impression—not just a gallery of finished work.
+The opening is an open-studio composition, led by “Design. Test. Refine.” Original artwork and a green-screen motion test sit beside their finished timer. A second branch shows the real connected canvas and an explicitly labelled owl-direction summary. ClickView is named in the hero. Process and experimentation remain the focus; the copy now names concrete methods rather than using rhetorical questions.
 
-The introduction, facts and four-discovery overview contain about 195 words, including navigation to all seven chapters, with short captions around the hero media. This supports a roughly 90-second orientation. The rest is a deliberately longer process story: approximately 1,730 words across the full main page including labels, captions, diagrams, tool names and controls. It is not presented as a complete 90-second read.
+The introduction, facts and four-finding overview contain about 154 words. The new ClickView/audience section adds about 90, giving 244 words before accounting for the short media captions. This supports a roughly 90-second orientation. The full main page is now approximately 1,410 words, down from 1,725 despite the added context. It remains a longer process story, not a complete 90-second read.
 
-The editorial sequence is question → original character → generated misses and refinements → connected experiments and finished library → tooling rethink → longer sequences → varied workflows → collection and reflection. The tooling strand is explicitly introduced as a parallel enquiry; the layout does not invent a chronological cause-and-effect relationship between it and the motion tests.
+The editorial sequence is project context and audience → findings → production brief → character motion → generation review and final library → production tools → sequencing → tool selection → collection and conclusion. The tooling strand is explicitly introduced as a parallel enquiry; the layout does not invent a chronological cause-and-effect relationship between it and the motion tests.
 
 The oversized plain-timer/designed-timer comparison has been folded into smaller evidence panels inside the two tool experiments. Both images and their meaning remain visible. The designed example is labelled as separately designed, not a one-click before/after transformation. The finished library now follows its tests and component development as the payoff. Its readable-prompt placeholder sits immediately beside the workflow explanation it would support.
 
-The user’s earlier direction remains: desktop first, large media, an original cohesive narrative, short clear copy, and placeholders only for identified gaps. No identity, contact fields, client claims or unverified impact figures have been added.
+The user’s earlier direction remains: desktop first, large media, a cohesive process narrative, concise copy, and placeholders only for identified gaps. ClickView and the primary-student audience are user-confirmed project context. No specific age range, student research, accessibility certification, learning outcome, commercial relationship or measured impact is asserted.
+
+## Content audit — serious, concise, slightly technical
+
+- Replaced vague slogans and rhetorical questions with production methods, constraints and findings.
+- Shortened repeated explanations without removing demonstrations, decisions or asset briefs.
+- Used specific terms where supported: reference composition, object consistency, generation nodes, compositing, base loops and completion states.
+- Kept first-person ownership for work performed; avoided self-evaluation such as “the best thing I made”.
+- Preserved source tool credits and the distinction between direction summaries and actual prompt text.
+- Retained the two existing media gaps. No new placeholder or invented evidence was added.
+
+| Previous copy | Revised copy |
+| --- | --- |
+| What happens if I try this? | Design. Test. Refine. |
+| The world changed. | Background drift. |
+| It worked. I missed the craft. | Functional output. Limited control. |
+| Loop the calm. Time the surprises. | Repeat the base. Schedule variation. |
+| Make the ending matter. | Completion state. |
+
+### Platform and audience
+
+`#project-context` follows the hero and precedes the findings. It explains ClickView as an educational video platform used by Australian schools, providing teachers with curriculum-aligned videos and teaching resources. This description is verified against [ClickView’s primary-teacher page](https://www.clickvieweducation.com/en-au/solutions/primary/teachers), checked 22 September 2026. A source link is included in the section.
+
+The project audience is **primary students**, confirmed by the user. Teachers select and run the timers. Readable countdowns, recognisable characters, controlled movement and clear completion cues are stated as design priorities—not validated student outcomes. The platform’s curriculum-aligned library description does not claim that these timers teach curriculum content.
 
 ## What returned from A
 
 | Original material | Where it appears in B |
 | --- | --- |
-| The repetitive production challenge and five workflow stages | 01 / The question: five illustrated stages, with the AI exploration stages identified |
-| The browser timer prototype and its limitations | 04 / Rethink the tool: inline recording and a clear explanation of the loss of creative control |
+| The repetitive production challenge and five workflow stages | 01 / Production brief: five illustrated stages, with the AI exploration stages identified |
+| The browser timer prototype and its limitations | 04 / Production tools: inline recording and a clear explanation of the loss of creative control |
 | The After Effects setup tool | Beside the prototype, with its own recording, lesson and editable-design rationale |
 | Browser output versus designed output | Compact evidence within each tool experiment, not a standalone before/after spectacle |
-| Original drawing → AI motion → finished timer | Hero and 02 / First, a character: a visual sequence with short explanatory captions |
-| Owl reference, rejected generations and approved motion | 03 / Learn from the tests: four large, always-visible comparison panels, each explaining the decision |
+| Original drawing → AI motion → finished timer | Hero and 02 / Character motion: a visual sequence with short explanatory captions |
+| Owl reference, rejected generations and approved motion | 03 / Generation review: four large, always-visible comparison panels, each explaining the decision |
 | Node-based generation workflow | Wide inline recording with reference → prompt/motion → selection guide; three moving canvas close-ups paired with finished library details |
-| Short clips, longer timers, loops and timed character events | 05 / The pacing: robot excerpt, three actual animation frames (rest → variation → recharged), and a four-track sequence diagram |
-| Different tools for different visual worlds | 06 / The toolkit: four large examples with artwork, animation, music and assembly tool chains |
+| Short clips, longer timers, loops and timed character events | 05 / Sequencing: robot excerpt, three actual animation frames (rest → variation → recharged), and a four-track sequence diagram |
+| Different tools for different visual worlds | 06 / Tool selection: four large examples with artwork, animation, music and assembly tool chains |
 | A consistent system with varied outputs | 07 / The collection: context clip, collection narrative and final montage slot |
 | Knowing what to hand over | Closing reflection and three practical takeaways |
 
@@ -82,4 +105,4 @@ Some supplied previews and the illustrated character still are approximately 800
 
 Browser checks passed at 320, 375, 390, 768, 1024, 1512, 1920 and 2560px without horizontal overflow. All three main navigation links stay available on phones. Verified that there are no accordions, dialogs or modal-only content triggers; all referenced images and anchors resolve.
 
-The new narrative order, sequential chapter numbers, all anchor targets, hero automatic playback, individual/global pause, content visibility without JavaScript and A/B navigation were verified. No page script errors or missing assets were reported. Desktop and mobile hero, tooling and library-payoff screenshots were reviewed.
+The narrative order, new audience section, sequential chapter numbers, all anchor targets, hero automatic playback, individual/global pause, content visibility without JavaScript and A/B navigation were verified. No page script errors or missing assets were reported. Desktop and mobile hero, audience, findings, tooling and library-payoff screenshots were reviewed.
