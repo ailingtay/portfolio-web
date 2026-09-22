@@ -39,6 +39,8 @@ The user’s earlier direction remains: desktop first, large media, a cohesive p
 
 ### Platform and audience
 
+The teacher and student panels now include a matching pair of AI-generated coloured-pencil illustrations. Their teal, ochre, coral and lavender palette and paper texture echo the existing timer/workflow artwork. These are labelled supporting illustrations, not original production evidence. Original 1536 × 1024 transparent PNGs and responsive WebP derivatives are saved in `assets/design-b/`; full prompts, filenames and provenance are recorded in `assets/design-b/AUDIENCE-ILLUSTRATIONS.md`. Existing assets remain unchanged.
+
 `#project-context` follows the hero and precedes the findings. It explains ClickView as an educational video platform used by Australian schools, providing teachers with curriculum-aligned videos and teaching resources. This description is verified against [ClickView’s primary-teacher page](https://www.clickvieweducation.com/en-au/solutions/primary/teachers), checked 22 September 2026. A source link is included in the section.
 
 The project audience is **primary students**, confirmed by the user. Teachers select and run the timers. Readable countdowns, recognisable characters, controlled movement and clear completion cues are stated as design priorities—not validated student outcomes. The platform’s curriculum-aligned library description does not claim that these timers teach curriculum content.
