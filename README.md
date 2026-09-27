@@ -2,6 +2,12 @@
 
 A local, responsive, single-page portfolio. No framework, build step, API, or account is required. The original `DESIGN.md`, `tokens.json`, `variables.css`, and `theme.css` are preserved. The page uses `variables.css`; `theme.css` remains a Tailwind reference and is not loaded.
 
+## Search visibility
+
+Every HTML page includes `<meta name="robots" content="noindex, nofollow, noimageindex">`. Keep this tag in the document head when adding new pages. Once deployed and crawled, it tells Google and supporting search engines to exclude the pages from search results. Existing results can remain until Google recrawls; use Google Search Console's Removals tool if faster removal is needed.
+
+Do not block these pages with `robots.txt`: Google needs to fetch them to see `noindex`. This setting does not restrict visitors, protect direct media URLs, or hide a public GitHub repository. Anyone with a page or asset URL can still access and share it. Actual privacy requires hosting that enforces authentication for both pages and assets.
+
 ## Preview
 
 **Design D (active):** open `design-d.html`, or select **D / The classroom**. Cloned from C with a bold, connected classroom video hero: twelve finished previews, poster colours and responsive rooms. Each visible room plays automatically while videos download progressively; click a room to pause or resume it. C is preserved as the archived reference. See `DESIGN-D.md`.
