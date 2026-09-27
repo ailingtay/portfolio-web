@@ -5,3 +5,6 @@
 node_modules/
 dist/
 build/
+
+# Local design history; not part of the published portfolio.
+/archive/

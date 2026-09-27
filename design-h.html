@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow, noimageindex">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Serious play — The AI Timer Lab</title>
+  <meta name="description" content="The making of 45 animated timers for primary classrooms: original illustration, reusable tools, motion experiments and the decisions behind the finished work."/>
+  <meta name="theme-color" content="#f4f1e9"/>
+  <link rel="stylesheet" href="design-h.css?v=1"/>
+  <script defer src="design-h.js?v=1"></script>
+  <script defer src="classroom-player.js?v=inline-4"></script>
+</head>
+<body>
+<a class="skip-link" href="#project">Skip to the project</a>
+<header class="site-header">
+  <a class="wordmark" href="#top"><span aria-hidden="true" class="brand-mark">✳</span> THE AI TIMER LAB</a>
+  <nav aria-label="Main navigation">
+    <a href="#classrooms">Classrooms</a>
+    <a href="#journey">The Journey</a>
+    <a href="#experiments">More experiments</a>
+    <a href="#reflection">Reflection</a>
+  </nav>
+  <button aria-pressed="false" hidden id="motion-master" type="button">Ⅱ Pause motion</button>
+</header>
+<main id="top">
+<section class="classroom-hero" aria-labelledby="title">
+  <div class="classroom-heading wrap">
+    <div><p class="eyebrow">ClickView / 45 classroom timers / A collection of small worlds</p><h1 id="title">Serious <em>play.</em></h1></div>
+    <div class="classroom-intro"><p>Timers for classroom moments.</p><span>Designed around the small transitions, pauses and bursts of energy that shape a school day.</span></div>
+  </div>
+  <aside class="context-strip" id="project" aria-label="Project brief">
+    <div class="wrap context-inner">
+      <div class="project-copy">
+        <p class="eyebrow">The project</p>
+        <p class="project-summary">Creating animated timers for primary classrooms using illustration, animation, AI-assisted workflows and custom-built tools.</p>
+        <p class="project-challenge"><strong>The challenge</strong> Across 45 timers, the same production steps kept repeating. I wanted to make that setup easier while still giving each timer a unique look and movement.</p>
+        <a class="text-link project-cta" href="#classrooms">Explore the films <span aria-hidden="true">↓</span></a>
+      </div>
+      <dl>
+        <div><dt>Collection</dt><dd>45 timers</dd></div>
+        <div><dt>Duration range</dt><dd>30 sec–60 min</dd></div>
+        <div><dt>My role</dt><dd>Concept, illustration, motion &amp; production</dd></div>
+      </dl>
+    </div>
+  </aside>
+  <div class="classroom-campus" id="classrooms"><div class="campus-key wrap"><span>00/ The classrooms</span><span>A timer for every moment <b aria-hidden="true">✳</b></span></div><div class="classroom-plan wrap"><svg class="corridors" viewBox="0 0 1400 1100" preserveAspectRatio="none" aria-hidden="true"><path d="M0 185H1400M0 550H1400M0 915H1400M165 0V1100M515 0V1100M865 0V1100M1215 0V1100"/></svg><button class="classroom room-0" type="button" data-video="assets/design-c/optimized/dance-desktop.mp4" data-mobile="assets/design-c/optimized/dance-mobile.mp4" data-title="Disco dance" data-poster="assets/design-c/optimized/dance-poster-5d953f-480.webp" aria-label="Pause or play Disco dance preview" aria-pressed="false"><span class="room-sign"><span>ROOM 01</span><span aria-hidden="true">↗</span></span><span class="room-screen"><img src="assets/design-c/optimized/dance-poster-5d953f-480.webp" alt="" fetchpriority="high" width="480" height="270"/><video class="room-video" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video><span class="room-play" aria-hidden="true">▶</span><span class="room-live" aria-hidden="true">Playing preview</span></span><span class="room-caption"><strong>Disco dance</strong><span>Get your wiggles out.</span></span></button><button class="classroom room-1" type="button" data-video="assets/design-c/optimized/space-desktop.mp4" data-mobile="assets/design-c/optimized/space-mobile.mp4" data-title="Space walk" data-poster="assets/design-c/optimized/009-screenshot-87b095-480.webp" aria-label="Pause or play Space walk preview" aria-pressed="false"><span class="room-sign"><span>ROOM 02</span><span aria-hidden="true">↗</span></span><span class="room-screen"><img src="assets/design-c/optimized/009-screenshot-87b095-480.webp" alt=""  width="480" height="270"/><video class="room-video" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video><span class="room-play" aria-hidden="true">▶</span><span class="room-live" aria-hidden="true">Playing preview</span></span><span class="room-caption"><strong>Space walk</strong><span>On to the next mission.</span></span></button><button class="classroom room-2" type="button" data-video="assets/design-c/dinosaurs.mp4" data-mobile="assets/design-c/optimized/dinosaurs-mobile.mp4" data-title="Dinosaur eggs" data-poster="assets/design-c/optimized/dinosaurs-poster-f09358-480.webp" aria-label="Pause or play Dinosaur eggs preview" aria-pressed="false"><span class="room-sign"><span>ROOM 03</span><span aria-hidden="true">↗</span></span><span class="room-screen"><img src="assets/design-c/optimized/dinosaurs-poster-f09358-480.webp" alt=""  width="480" height="270"/><video class="room-video" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video><span class="room-play" aria-hidden="true">▶</span><span class="room-live" aria-hidden="true">Playing preview</span></span><span class="room-caption"><strong>Dinosaur eggs</strong><span>Hatch your best ideas.</span></span></button><button class="classroom room-3" type="button" data-video="assets/timer-lab-review/05-final.mp4" data-mobile="assets/design-c/optimized/05-final-mobile.mp4" data-title="The library" data-poster="assets/design-c/optimized/040-screenshot-a0b69e-480.webp" aria-label="Pause or play The library preview" aria-pressed="false"><span class="room-sign"><span>ROOM 04</span><span aria-hidden="true">↗</span></span><span class="room-screen"><img src="assets/design-c/optimized/040-screenshot-a0b69e-480.webp" alt=""  width="480" height="270"/><video class="room-video" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video><span class="room-play" aria-hidden="true">▶</span><span class="room-live" aria-hidden="true">Playing preview</span></span><span class="room-caption"><strong>The library</strong><span>A quiet kind of magic.</span></span></button><button class="classroom room-4" type="button" data-video="assets/design-c/cartoon.mp4" data-mobile="assets/design-c/optimized/cartoon-mobile.mp4" data-title="Garden Pals" data-poster="assets/design-c/optimized/006-screenshot-9f2af5-480.webp" aria-label="Pause or play Garden Pals preview" aria-pressed="false"><span class="room-sign"><span>ROOM 05</span><span aria-hidden="true">↗</span></span><span class="room-screen"><img src="assets/design-c/optimized/006-screenshot-9f2af5-480.webp" alt="" loading="lazy" width="480" height="270"/><video class="room-video" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video><span class="room-play" aria-hidden="true">▶</span><span class="room-live" aria-hidden="true">Playing preview</span></span><span class="room-caption"><strong>Garden Pals</strong><span>Let's line up.</span></span></button><button class="classroom room-5" type="button" data-video="assets/design-c/optimized/06-robot-timer-desktop.mp4" data-mobile="assets/design-c/optimized/06-robot-timer-mobile.mp4" data-title="Robot workshop" data-poster="assets/design-c/optimized/035-screenshot-b5ec72-480.webp" aria-label="Pause or play Robot workshop preview" aria-pressed="false"><span class="room-sign"><span>ROOM 06</span><span aria-hidden="true">↗</span></span><span class="room-screen"><img src="assets/design-c/optimized/035-screenshot-b5ec72-480.webp" alt="" loading="lazy" width="480" height="270"/><video class="room-video" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video><span class="room-play" aria-hidden="true">▶</span><span class="room-live" aria-hidden="true">Playing preview</span></span><span class="room-caption"><strong>Robot workshop</strong><span>Time to tinker.</span></span></button><button class="classroom room-0" type="button" data-video="assets/design-c/optimized/seascape-desktop.mp4" data-mobile="assets/design-c/optimized/seascape-mobile.mp4" data-title="By the sea" data-poster="assets/design-c/optimized/012-screenshot-5c57d1-480.webp" aria-label="Pause or play By the sea preview" aria-pressed="false"><span class="room-sign"><span>ROOM 07</span><span aria-hidden="true">↗</span></span><span class="room-screen"><img src="assets/design-c/optimized/012-screenshot-5c57d1-480.webp" alt="" loading="lazy" width="480" height="270"/><video class="room-video" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video><span class="room-play" aria-hidden="true">▶</span><span class="room-live" aria-hidden="true">Playing preview</span></span><span class="room-caption"><strong>By the sea</strong><span>Ready for the next wave.</span></span></button><button class="classroom room-1" type="button" data-video="assets/design-c/optimized/rocket-desktop.mp4" data-mobile="assets/design-c/optimized/rocket-mobile.mp4" data-title="Rocket garden" data-poster="assets/design-c/optimized/016-screenshot-b27e74-480.webp" aria-label="Pause or play Rocket garden preview" aria-pressed="false"><span class="room-sign"><span>ROOM 08</span><span aria-hidden="true">↗</span></span><span class="room-screen"><img src="assets/design-c/optimized/016-screenshot-b27e74-480.webp" alt="" loading="lazy" width="480" height="270"/><video class="room-video" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video><span class="room-play" aria-hidden="true">▶</span><span class="room-live" aria-hidden="true">Playing preview</span></span><span class="room-caption"><strong>Rocket garden</strong><span>Blast off.</span></span></button><button class="classroom room-2" type="button" data-video="assets/design-c/animals.mp4" data-mobile="assets/design-c/animals.mp4" data-title="Woodland band" data-poster="assets/design-c/optimized/animals-poster-3065dc-480.webp" aria-label="Pause or play Woodland band preview" aria-pressed="false"><span class="room-sign"><span>ROOM 09</span><span aria-hidden="true">↗</span></span><span class="room-screen"><img src="assets/design-c/optimized/animals-poster-3065dc-480.webp" alt="" loading="lazy" width="480" height="270"/><video class="room-video" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video><span class="room-play" aria-hidden="true">▶</span><span class="room-live" aria-hidden="true">Playing preview</span></span><span class="room-caption"><strong>Woodland band</strong><span>Tidy till the music stops.</span></span></button><button class="classroom room-3" type="button" data-video="assets/design-c/blocks.mp4" data-mobile="assets/design-c/blocks.mp4" data-title="Block Party." data-poster="assets/design-c/optimized/blocks-poster-b37ff3-480.webp" aria-label="Pause or play Block Party. preview" aria-pressed="false"><span class="room-sign"><span>ROOM 10</span><span aria-hidden="true">↗</span></span><span class="room-screen"><img src="assets/design-c/optimized/blocks-poster-b37ff3-480.webp" alt="" loading="lazy" width="480" height="270"/><video class="room-video" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video><span class="room-play" aria-hidden="true">▶</span><span class="room-live" aria-hidden="true">Playing preview</span></span><span class="room-caption"><strong>Block Party.</strong><span>Turn it up.</span></span></button><button class="classroom room-4" type="button" data-video="assets/design-c/medieval.mp4" data-mobile="assets/design-c/optimized/medieval-mobile.mp4" data-title="Another Time" data-poster="assets/design-c/optimized/030-screenshot-ae15b6-480.webp" aria-label="Pause or play Another Time preview" aria-pressed="false"><span class="room-sign"><span>ROOM 11</span><span aria-hidden="true">↗</span></span><span class="room-screen"><img src="assets/design-c/optimized/030-screenshot-ae15b6-480.webp" alt="" loading="lazy" width="480" height="270"/><video class="room-video" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video><span class="room-play" aria-hidden="true">▶</span><span class="room-live" aria-hidden="true">Playing preview</span></span><span class="room-caption"><strong>Another Time</strong><span>Step into the past.</span></span></button><button class="classroom room-5" type="button" data-video="assets/design-c/watercolour.mp4" data-mobile="assets/design-c/watercolour.mp4" data-title="The Calm Jar" data-poster="assets/design-c/optimized/011-screenshot-d608e9-480.webp" aria-label="Pause or play The Calm Jar preview" aria-pressed="false"><span class="room-sign"><span>ROOM 12</span><span aria-hidden="true">↗</span></span><span class="room-screen"><img src="assets/design-c/optimized/011-screenshot-d608e9-480.webp" alt="" loading="lazy" width="480" height="270"/><video class="room-video" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video><span class="room-play" aria-hidden="true">▶</span><span class="room-live" aria-hidden="true">Playing preview</span></span><span class="room-caption"><strong>The Calm Jar</strong><span>One stone at a time.</span></span></button></div><div class="campus-footer wrap"><span>Click a room to preview it.</span><a href="#journey">Next up: how I made them <span aria-hidden="true">↓</span></a></div></div>
+</section>
+
+<section id="journey" aria-labelledby="journey-title">
+  <div class="journey-intro wrap">
+    <h2 id="journey-title">The Journey</h2>
+    <p class="journey-deck">From building a reusable countdown to directing AI-generated motion, assembling longer sequences and animating with code.</p>
+  </div>
+  <section class="tools-chapter" id="tools" aria-labelledby="tools-title">
+    <div class="wrap">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 / Timer tooling</p><h2 id="tools-title">Building a reusable countdown</h2><p class="section-deck">Every timer needed a countdown. I used Claude to explore how much of that setup I could automate, then tested where the tool fitted into my existing workflow.</p></div>
+      </div>
+      <div class="tools-grid">
+        <article>
+          <p class="eyebrow">Experiment A / Timer generator app</p>
+          <h3>A working timer, with too little control</h3>
+          <p>The browser app could generate and export a timer. It made the setup quicker, but I missed the control I had in After Effects over typography, animation and the finish. That led me to rethink what the tool should do.</p>
+          <div class="media motion contain" data-label="Browser timer generator demonstration">
+<img alt="" aria-hidden="true" class="motion-poster" decoding="async" height="703" loading="lazy" sizes="(max-width: 760px) calc(100vw - 36px), min(48vw, 780px)" src="assets/design-c/optimized/02-timer-app-fbb29d-480.webp" srcset="assets/design-c/optimized/02-timer-app-fbb29d-480.webp 480w, assets/timer-lab-review/02-timer-app.jpg 960w" width="960"/><video aria-label="Browser timer generator demonstration" data-src="assets/timer-lab-review/02-timer-app.mp4" data-src-mobile="assets/design-c/optimized/02-timer-app-mobile.mp4" loop="" muted="" playsinline="" preload="none"></video>
+<span class="speed">Tool recording</span><button aria-label="Play Browser timer generator demonstration" aria-pressed="false" class="play-control" hidden="" type="button">Play ↗</button><span class="media-error" hidden="">Motion unavailable · still shown</span></div>
+          <p class="tool-route">Browser app <b>→</b> Fixed export</p>
+        </article>
+        <article>
+          <p class="eyebrow">Experiment B / Timer plugin</p>
+          <h3>Moving the setup<br/>into After Effects</h3>
+          <p>I brought the repeated setup into After Effects. The plugin generated the timer structure inside an editable composition, so I could continue designing the type, movement and scene there.</p>
+          <div class="media motion contain" data-label="After Effects timer setup tool demonstration">
+<img alt="" aria-hidden="true" class="motion-poster" decoding="async" height="586" loading="lazy" sizes="(max-width: 760px) calc(100vw - 36px), min(48vw, 780px)" src="assets/design-c/optimized/03-ae-plugin-fdb40a-480.webp" srcset="assets/design-c/optimized/03-ae-plugin-fdb40a-480.webp 480w, assets/timer-lab-review/03-ae-plugin.jpg 960w" width="960"/><video aria-label="After Effects timer setup tool demonstration" data-src="assets/timer-lab-review/03-ae-plugin.mp4" data-src-mobile="assets/design-c/optimized/03-ae-plugin-mobile.mp4" loop="" muted="" playsinline="" preload="none"></video>
+<span class="speed">Tool recording</span><button aria-label="Play After Effects timer setup tool demonstration" aria-pressed="false" class="play-control" hidden="" type="button">Play ↗</button><span class="media-error" hidden="">Motion unavailable · still shown</span></div>
+          <p class="tool-route">AE plugin <b>→</b> Editable composition</p>
+        </article>
+      </div>
+      <div class="tools-transition takeaway-block"><span class="takeaway-mark" role="img" aria-label="Takeaway">✳</span><p>Automating the repeated setup gave me more time to focus on the visual side—type, movement and composition.</p></div>
+    </div>
+  </section>
+
+  <section class="dark-chapter featured-story" id="library" aria-labelledby="library-title">
+    <div class="wrap">
+      <div class="section-heading">
+        <div><p class="eyebrow">02 / The library · Choosing the right asset</p><h2 id="library-title">Finding an owl I could use</h2><p class="section-deck">Getting a result was easy. Getting one I could actually use meant learning how to be more specific about what should move, what should stay the same, and what to avoid.</p></div>
+      </div>
+      <div class="process-row">
+        <figure class="process-card">
+<div class="media motion" data-label="Rejected owl generation with background drift">
+<img alt="" aria-hidden="true" class="motion-poster" decoding="async" height="457" loading="lazy" sizes="(max-width: 760px) calc(100vw - 36px), (max-width: 1100px) calc((100vw - 86px) / 3), min(32vw, 510px)" src="assets/design-c/optimized/05-owl-bad-1-b3ed19-480.webp" srcset="assets/design-c/optimized/05-owl-bad-1-b3ed19-480.webp 480w, assets/timer-lab-review/05-owl-bad-1.jpg 800w" width="800"/><video aria-label="Rejected owl generation with background drift" data-src="assets/design-c/optimized/05-owl-bad-1-desktop.mp4" data-src-mobile="assets/design-c/optimized/05-owl-bad-1-mobile.mp4" loop="" muted="" playsinline="" preload="none"></video>
+<span class="speed">Rejected test</span><button aria-label="Play Rejected owl generation with background drift" aria-pressed="false" class="play-control" hidden="" type="button">Play ↗</button><span class="media-error" hidden="">Motion unavailable · still shown</span></div>
+<figcaption><p class="stage-label">Rejected</p><h3>An unwanted forest</h3><p>The movement worked, but the background and framing changed. I narrowed the prompt around the setting and camera.</p></figcaption>
+</figure>
+        <figure class="process-card">
+<div class="media motion" data-label="Rejected owl generation with extra objects">
+<img alt="" aria-hidden="true" class="motion-poster" decoding="async" height="457" loading="lazy" sizes="(max-width: 760px) calc(100vw - 36px), (max-width: 1100px) calc((100vw - 86px) / 3), min(32vw, 510px)" src="assets/design-c/optimized/05-owl-bad-2-db8147-480.webp" srcset="assets/design-c/optimized/05-owl-bad-2-db8147-480.webp 480w, assets/timer-lab-review/05-owl-bad-2.jpg 800w" width="800"/><video aria-label="Rejected owl generation with extra objects" data-src="assets/design-c/optimized/05-owl-bad-2-desktop.mp4" data-src-mobile="assets/design-c/optimized/05-owl-bad-2-mobile.mp4" loop="" muted="" playsinline="" preload="none"></video>
+<span class="speed">Rejected test</span><button aria-label="Play Rejected owl generation with extra objects" aria-pressed="false" class="play-control" hidden="" type="button">Play ↗</button><span class="media-error" hidden="">Motion unavailable · still shown</span></div>
+<figcaption><p class="stage-label">Rejected</p><h3>Extra books appeared</h3><p>The background stayed put, but new objects appeared. I constrained the scene and reduced the movement.</p></figcaption>
+</figure>
+        <figure class="process-card">
+<div class="media motion" data-label="Selected owl motion">
+<img alt="" aria-hidden="true" class="motion-poster" decoding="async" height="457" loading="lazy" sizes="(max-width: 760px) calc(100vw - 36px), (max-width: 1100px) calc((100vw - 86px) / 3), min(32vw, 510px)" src="assets/design-c/optimized/05-owl-approved-640f2f-480.webp" srcset="assets/design-c/optimized/05-owl-approved-640f2f-480.webp 480w, assets/timer-lab-review/05-owl-approved.jpg 800w" width="800"/><video aria-label="Selected owl motion" data-src="assets/design-c/optimized/05-owl-approved-desktop.mp4" data-src-mobile="assets/design-c/optimized/05-owl-approved-mobile.mp4" loop="" muted="" playsinline="" preload="none"></video>
+<span class="speed">Selected test</span><button aria-label="Play Selected owl motion" aria-pressed="false" class="play-control" hidden="" type="button">Play ↗</button><span class="media-error" hidden="">Motion unavailable · still shown</span></div>
+<figcaption><p class="stage-label">Selected</p><h3>A usable performance</h3><p>This take stayed close to the reference and kept the movement subtle enough to use in the final timer.</p></figcaption>
+</figure>
+      </div>
+      <div class="library-pair">
+        <figure><div class="media motion contain" data-label="Connected library generation canvas">
+<img alt="" aria-hidden="true" class="motion-poster" decoding="async" height="753" loading="lazy" sizes="(max-width: 760px) calc(100vw - 36px), min(48vw, 780px)" src="assets/design-c/optimized/05-node-25f1b7-480.webp" srcset="assets/design-c/optimized/05-node-25f1b7-480.webp 479w, assets/timer-lab-review/05-node.jpg 960w" width="960"/><video aria-label="Connected library generation canvas" data-src="assets/timer-lab-review/05-node.mp4" data-src-mobile="assets/design-c/optimized/05-node-mobile.mp4" loop="" muted="" playsinline="" preload="none"></video>
+<span class="speed">Working canvas</span><button aria-label="Play Connected library generation canvas" aria-pressed="false" class="play-control" hidden="" type="button">Play ↗</button><span class="media-error" hidden="">Motion unavailable · still shown</span></div><figcaption><h3>The working canvas</h3><p>The node-based setup gave me more control over each element. I could link references between tests, branch off new versions, and adjust one part without affecting the rest.</p></figcaption></figure>
+        <figure><div class="media motion" data-label="Finished library timer">
+<img alt="" aria-hidden="true" class="motion-poster" decoding="async" height="900" loading="lazy" sizes="(max-width: 760px) calc(100vw - 36px), min(48vw, 780px)" src="assets/design-c/optimized/040-screenshot-a0b69e-480.webp" srcset="assets/design-c/optimized/040-screenshot-a0b69e-480.webp 480w, assets/design-c/optimized/040-screenshot-a0b69e-960.webp 960w, assets/design-c/040-screenshot.webp 1600w" width="1600"/><video aria-label="Finished library timer" data-src="assets/timer-lab-review/05-final.mp4" data-src-mobile="assets/design-c/optimized/05-final-mobile.mp4" loop="" muted="" playsinline="" preload="none"></video>
+<span class="speed">Finished excerpt</span><button aria-label="Play Finished library timer" aria-pressed="false" class="play-control" hidden="" type="button">Play ↗</button><span class="media-error" hidden="">Motion unavailable · still shown</span></div><figcaption><h3>The finished library</h3><p>Nothing was generated in one go. The scene was built by bringing the selected elements together, then refining how they worked as a whole.</p></figcaption></figure>
+      </div>
+      <div class="workflow-diagram dark-workflow" aria-label="The library workflow: assets with ChatGPT and Gemini Flow, animate with Runway, add audio with ElevenLabs, then assemble in After Effects">
+        <p class="workflow-title">Workflow</p>
+        <div class="workflow-flow">
+          <div class="workflow-node"><span class="workflow-step">01</span><strong>Assets</strong><span class="workflow-apps"><span class="app-badge" title="ChatGPT"><img src="assets/design-c/logos/openai.svg" alt=""/><span>ChatGPT</span></span><span class="app-badge" title="Gemini Flow"><img src="assets/design-c/logos/gemini-color.svg" alt=""/><span>Gemini Flow</span></span></span></div>
+          <span class="workflow-arrow" aria-hidden="true">→</span>
+          <div class="workflow-node"><span class="workflow-step">02</span><strong>Animate</strong><span class="app-badge" title="Runway"><img src="assets/design-c/logos/runway.svg" alt=""/><span>Runway</span></span></div>
+          <span class="workflow-arrow" aria-hidden="true">→</span>
+          <div class="workflow-node"><span class="workflow-step">03</span><strong>Add audio</strong><span class="app-badge" title="ElevenLabs"><img src="assets/design-c/logos/elevenlabs.svg" alt=""/><span>ElevenLabs</span></span></div>
+          <span class="workflow-arrow" aria-hidden="true">→</span>
+          <div class="workflow-node"><span class="workflow-step">04</span><strong>Assemble and refine</strong><span class="app-badge" title="After Effects"><img src="assets/design-c/logos/after-effects.svg" alt=""/><span>After Effects</span></span></div>
+        </div>
+      </div>
+      <div class="story-result takeaway-block"><span class="takeaway-mark" role="img" aria-label="Takeaway">✳</span><p>The useful part was learning how to fine-tune the prompt. Each result gave me clues about what to change next.</p></div>
+    </div>
+  </section>
+
+  <section class="chapter wrap featured-story" id="robot-study" aria-labelledby="robot-title">
+    <div class="section-heading">
+      <div><p class="eyebrow">03 / Robot workshop · Modular production</p><h2 id="robot-title">Building a longer timer from short clips</h2><p class="section-deck">I was used to thinking about production from start to finish. But with AI generations only lasting a few seconds, I had to rethink the process and start working in short loops and moments that could build into a longer sequence.</p></div>
+    </div>
+    <div class="process-row">
+      <figure class="process-card">
+<div class="media still contain"><a aria-label="Open full image: Base robot character illustration (new tab)" href="assets/portfolio-media/035-robots/035-workflow%202%20(finalising%20asset%20with%20illustration).png" rel="noopener" target="_blank"><img alt="Base robot character illustration with a battery detail" decoding="async" height="1392" loading="lazy" src="assets/portfolio-media/035-robots/035-workflow%202%20(finalising%20asset%20with%20illustration).png" width="1866"/><span aria-hidden="true" class="inspect-hint">Open image ↗</span></a></div>
+<figcaption><p class="stage-label">Character development</p><h3>The base character</h3><p>I started with a simple character that could carry across different states and moments.</p></figcaption>
+</figure>
+      <figure class="process-card">
+<div class="media motion contain" data-label="Robot sleeping loop"><img alt="Robot resting pose" aria-hidden="true" class="motion-poster" decoding="async" height="540" loading="lazy" src="assets/design-b/robot-rest.webp" width="960"/><video aria-label="Robot sleeping loop" data-src="assets/portfolio-media/035-robots/035-base%20animation.webm" data-src-mobile="assets/portfolio-media/035-robots/035-base%20animation.webm" loop="" muted="" playsinline="" preload="none"></video><span class="speed">Loop development</span><button aria-label="Play Robot sleeping loop" aria-pressed="false" class="play-control" hidden="" type="button">Play ↗</button><span class="media-error" hidden="">Motion unavailable · still shown</span></div>
+<figcaption><p class="stage-label">Loop development</p><h3>A loopable state</h3><p>I turned the resting pose into a short sleeping loop that could repeat for as long as needed.</p></figcaption>
+</figure>
+      <figure class="process-card">
+<div class="media robot-sequence-media" data-label="Robot motion variations"><div class="sequence-take"><video aria-label="Robot twitch one" autoplay="" loop="" muted="" playsinline="" preload="metadata" poster="assets/design-b/robot-variation.webp" src="assets/portfolio-media/035-robots/035-twitch%201.webm"></video><span>01 / Twitch</span></div><div class="sequence-take"><video aria-label="Robot twitch two" autoplay="" loop="" muted="" playsinline="" preload="metadata" poster="assets/design-b/robot-variation.webp" src="assets/portfolio-media/035-robots/035-twitch%202.webm"></video><span>02 / Twitch</span></div><div class="sequence-take"><video aria-label="Robot final move" autoplay="" loop="" muted="" playsinline="" preload="metadata" poster="assets/design-b/robot-recharged.webp" src="assets/portfolio-media/035-robots/035-final%20move.webm?v=2"></video><span>03 / Final move</span></div></div>
+<figcaption><p class="stage-label">Putting it together</p><h3>The assembled sequence</h3><p>I combined the resting loop with smaller events, like twitches, dream moments and the final wake-up.</p></figcaption>
+</figure>
+    </div>
+    <div class="robot-final-wide">
+      <div class="media still robot-final-wide-media"><img alt="Finished 20-minute robot timer" decoding="async" height="450" loading="lazy" src="assets/portfolio-media/035-robots/035-20%20min%20robots%20(5x).gif" width="800"/></div>
+    </div>
+    <div class="robot-sequence-panel">
+      <div class="robot-sequence-copy"><h3>A loop with timed events</h3></div>
+      <div class="sequence" role="img" aria-label="Conceptual robot sequence, not to scale: repeating base animation, ambient dream events, smaller character events, and a final wake-up at the end">
+        <div class="sequence-timeline">
+          <div class="timeline-row character-row"><span class="timeline-label">Character<br/>animation</span><div class="timeline-track"><i class="timeline-base">Base</i><i class="timeline-twitch">Twitch</i><i class="timeline-base">Base</i><i class="timeline-twitch">Twitch</i><i class="timeline-base timeline-wide">Base</i><i class="timeline-twitch">Twitch</i><i class="timeline-base">Base</i><i class="timeline-twitch">Twitch</i><i class="timeline-wake">Wake up</i></div></div>
+          <div class="timeline-row ambient-row"><span class="timeline-label">Ambient<br/>events</span><div class="timeline-track"><i class="timeline-dream">Dream</i><i class="timeline-dream">Dream</i><i class="timeline-dream">Dream</i><i class="timeline-dream">Dream</i></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="workflow-diagram robot-workflow" aria-label="Robot workflow: prepare assets in Midjourney and Photoshop, animate with Runway, add music, then assemble in After Effects">
+      <p class="workflow-title">Workflow</p>
+      <div class="workflow-flow">
+        <div class="workflow-node"><span class="workflow-step">01</span><strong>Assets</strong><span class="workflow-apps"><span class="app-badge" title="Midjourney"><img src="assets/design-c/logos/midjourney.svg" alt=""/><span>Midjourney</span></span><span class="app-badge" title="Photoshop"><img src="assets/timer-lab/07-photoshop.png" alt=""/><span>Photoshop</span></span></span></div>
+        <span class="workflow-arrow" aria-hidden="true">→</span>
+        <div class="workflow-node"><span class="workflow-step">02</span><strong>Animate</strong><span class="app-badge" title="Runway"><img src="assets/design-c/logos/runway.svg" alt=""/><span>Runway</span></span></div>
+        <span class="workflow-arrow" aria-hidden="true">→</span>
+        <div class="workflow-node"><span class="workflow-step">03</span><strong>Add audio</strong><span class="app-badge" title="Music"><img src="assets/design-c/logos/elevenlabs.svg" alt=""/><span>Music</span></span></div>
+        <span class="workflow-arrow" aria-hidden="true">→</span>
+        <div class="workflow-node"><span class="workflow-step">04</span><strong>Assembly</strong><span class="app-badge" title="After Effects"><img src="assets/design-c/logos/after-effects.svg" alt=""/><span>After Effects</span></span></div>
+      </div>
+    </div>
+    <div class="story-result robot-sequence-takeaway takeaway-block"><span class="takeaway-mark" role="img" aria-label="Takeaway">✳</span><p>Working this way kept each part independent. I could add variation, swap out what wasn’t working, and replace one moment without rebuilding the whole sequence.</p></div>
+  </section>
+
+  <section class="chapter wrap featured-story sprite-story" id="sprite-study" aria-labelledby="sprite-title">
+    <div class="section-heading">
+      <div><p class="eyebrow">04 / Garden Pals · Animation with code</p><h2 id="sprite-title">Animating in code</h2><p class="section-deck">AI gave me a way to explore what animating with code could feel like. Instead of building every movement by hand, I could describe behaviours, test them quickly, and refine what worked.</p></div>
+    </div>
+    <div class="process-row">
+      <figure class="process-card">
+        <div class="media still contain"><a href="assets/design-c/006-workflow-2-final-characters.webp" target="_blank" rel="noopener" aria-label="Open full image: Garden Pals character artwork (new tab)"><img src="assets/design-c/optimized/006-workflow-2-final-characters-868a03-480.webp" srcset="assets/design-c/optimized/006-workflow-2-final-characters-868a03-480.webp 480w, assets/design-c/006-workflow-2-final-characters.webp 763w" sizes="(max-width: 760px) calc(100vw - 36px), (max-width: 1100px) calc((100vw - 86px) / 3), min(32vw, 510px)" alt="Six illustrated Garden Pals characters: pear, sun, raindrop, cloud, flower and moon" width="763" height="691" loading="lazy" decoding="async"/><span class="inspect-hint" aria-hidden="true">Open image ↗</span></a></div>
+        <figcaption><p class="stage-label">Character artwork</p><h3>The starting cast</h3><p>I started with a set of illustrated characters, each with its own shape but similar expressions.</p></figcaption>
+      </figure>
+      <figure class="process-card">
+        <div class="media sprite-evidence-media">
+          <div class="sprite-evidence-grid">
+            <a href="assets/design-c/006-workflow-3-claude-to-create-sprite.webp" target="_blank" rel="noopener" aria-label="Open sprite frame tests (new tab)"><img src="assets/design-c/optimized/006-workflow-3-claude-to-create-sprite-a21390-480.webp" srcset="assets/design-c/optimized/006-workflow-3-claude-to-create-sprite-a21390-480.webp 480w, assets/design-c/optimized/006-workflow-3-claude-to-create-sprite-a21390-960.webp 960w, assets/design-c/006-workflow-3-claude-to-create-sprite.webp 1323w" sizes="(max-width: 760px) 50vw, (max-width: 1100px) 25vw, 420px" alt="Two-frame sprite tests created in Claude" loading="lazy" decoding="async"/><span class="inspect-hint" aria-hidden="true">Workflow 3 ↗</span></a>
+            <a href="assets/design-c/006-workflow-5-all-sprites.webp" target="_blank" rel="noopener" aria-label="Open all sprite frames (new tab)"><img src="assets/design-c/optimized/006-workflow-5-all-sprites-b53a2a-480.webp" srcset="assets/design-c/optimized/006-workflow-5-all-sprites-b53a2a-480.webp 480w, assets/design-c/optimized/006-workflow-5-all-sprites-b53a2a-960.webp 960w, assets/design-c/006-workflow-5-all-sprites.webp 1316w" sizes="(max-width: 760px) 50vw, (max-width: 1100px) 25vw, 420px" alt="All Garden Pals sprite frames in a shared preview" loading="lazy" decoding="async"/><span class="inspect-hint" aria-hidden="true">Workflow 5 ↗</span></a>
+          </div>
+          <span class="speed">Individual motion references</span>
+        </div>
+        <figcaption><p class="stage-label">Individual motion</p><h3>Animating each character</h3><p>Claude helped test simple behaviours and explore how each character could move.</p></figcaption>
+      </figure>
+      <figure class="process-card">
+        <div class="media motion contain" data-label="Garden Pals prototyping animation">
+          <video aria-label="Garden Pals prototyping animation" data-src="assets/portfolio-media/006-colourful%20cartoon/006-workflow%206%20(prototyping%20animation).webm" data-src-mobile="assets/portfolio-media/006-colourful%20cartoon/006-workflow%206%20(prototyping%20animation).webm" loop="" muted="" playsinline="" preload="none"></video>
+          <span class="speed">Prototyping animation</span><button aria-label="Play Garden Pals prototyping animation" aria-pressed="false" class="play-control" hidden="" type="button">Play ↗</button><span class="media-error" hidden="">Motion unavailable · still shown</span>
+        </div>
+        <figcaption><p class="stage-label">Scene motion</p><h3>Animate the whole composition</h3><p>The full scene was also tested at once to see how the characters could move and react together.</p></figcaption>
+      </figure>
+    </div>
+    <div class="garden-final-panel">
+      <div class="robot-final-wide">
+        <div class="media motion robot-final-wide-media" data-label="Finished Garden Pals timer">
+          <img alt="" aria-hidden="true" class="motion-poster" decoding="async" height="900" loading="lazy" src="assets/design-c/optimized/006-screenshot-9f2af5-480.webp" srcset="assets/design-c/optimized/006-screenshot-9f2af5-480.webp 480w, assets/design-c/optimized/006-screenshot-9f2af5-960.webp 960w, assets/design-c/006-screenshot.webp 1600w" sizes="(max-width: 760px) calc(100vw - 68px), (max-width: 1100px) calc((100vw - 118px) / 1), min(76vw, 1200px)" width="1600"/>
+          <video aria-label="Finished Garden Pals timer" data-src="assets/design-c/cartoon.mp4" data-src-mobile="assets/design-c/optimized/cartoon-mobile.mp4" loop="" muted="" playsinline="" preload="none"></video>
+          <span class="speed">Finished timer preview</span><button aria-label="Play Finished Garden Pals timer preview" aria-pressed="false" class="play-control" hidden="" type="button">Play ↗</button><span class="media-error" hidden="">Motion unavailable · still shown</span>
+        </div>
+      </div>
+    </div>
+    <p class="media-note"><a href="assets/design-c/006-workflow-5-all-sprites.webp" target="_blank" rel="noopener">View the sprite and cast tests ↗</a></p>
+    <div class="workflow-diagram light-workflow" aria-label="Garden Pals workflow: prepare assets in Illustrator and Photoshop, animate in code with Claude, add audio with ElevenLabs, then assemble and refine in After Effects">
+      <p class="workflow-title">Workflow</p>
+      <div class="workflow-flow">
+        <div class="workflow-node"><span class="workflow-step">01</span><strong>Assets</strong><span class="workflow-apps"><span class="app-badge" title="Illustrator"><img src="assets/timer-lab/07-illustrator.png" alt=""/><span>Illustrator</span></span><span class="app-badge" title="Photoshop"><img src="assets/timer-lab/07-photoshop.png" alt=""/><span>Photoshop</span></span></span></div>
+        <span class="workflow-arrow" aria-hidden="true">→</span>
+        <div class="workflow-node"><span class="workflow-step">02</span><strong>Animate</strong><span class="app-badge" title="Claude"><img src="assets/design-c/logos/claude-color.svg" alt=""/><span>Claude</span></span></div>
+        <span class="workflow-arrow" aria-hidden="true">→</span>
+        <div class="workflow-node"><span class="workflow-step">03</span><strong>Add audio</strong><span class="app-badge" title="ElevenLabs"><img src="assets/design-c/logos/elevenlabs.svg" alt=""/><span>ElevenLabs</span></span></div>
+        <span class="workflow-arrow" aria-hidden="true">→</span>
+        <div class="workflow-node"><span class="workflow-step">04</span><strong>Assemble and refine</strong><span class="app-badge" title="After Effects"><img src="assets/design-c/logos/after-effects.svg" alt=""/><span>After Effects</span></span></div>
+      </div>
+    </div>
+    <div class="story-result garden-takeaway takeaway-block"><span class="takeaway-mark" role="img" aria-label="Takeaway">✳</span><p>Code became another way to animate. AI made it easier to experiment with movement and focus on the behaviour rather than how every frame was built.</p></div>
+  </section>
+
+
+</section>
+
+<section class="experiments-chapter" id="experiments" aria-labelledby="experiments-title">
+  <div class="wrap">
+    <div class="section-heading">
+      <div><p class="eyebrow">05 / Further studies</p><h2 id="experiments-title">More experiments</h2><p class="section-deck">Every timer used the same basic ingredients, but the approach changed each time. These are a few other experiments that stood out along the way.</p></div>
+    </div>
+    <div class="experiment-grid">
+<article class="experiment experiment-preview-first disco-experiment" id="drawing-study" aria-labelledby="drawing-title">
+  <div class="experiment-heading"><p class="eyebrow">Disco dance / Original illustration</p><h3 id="drawing-title">Keeping my drawing in the animation</h3></div>
+  <p>I started with my own character, then tested generated movement until I found something that still felt like the drawing.</p>
+  <figure class="experiment-preview">
+<div class="media motion" data-label="Finished disco dance timer">
+<img alt="" aria-hidden="true" class="motion-poster" decoding="async" height="540" loading="lazy" sizes="(max-width: 760px) calc(100vw - 36px), (max-width: 1100px) calc((100vw - 86px) / 3), min(32vw, 510px)" src="assets/design-c/optimized/dance-poster-5d953f-480.webp" srcset="assets/design-c/optimized/dance-poster-5d953f-480.webp 480w, assets/design-c/dance-poster.webp 960w" width="960"/><video aria-label="Finished disco dance timer" data-src="assets/design-c/optimized/dance-desktop.mp4" data-src-mobile="assets/design-c/optimized/dance-mobile.mp4" loop="" muted="" playsinline="" preload="none"></video>
+<span class="speed">Finished excerpt</span><button aria-label="Play Finished disco dance timer" aria-pressed="false" class="play-control" hidden="" type="button">Play ↗</button><span class="media-error" hidden="">Motion unavailable · still shown</span></div>
+  </figure>
+  <details class="disco-study-details">
+    <summary>View drawing</summary>
+    <div class="disco-study-body">
+      <div class="process-row"><figure class="process-card">
+<div class="media still drawing"><a aria-label="Open full image: Original yellow character drawing open in Procreate (new tab)" href="assets/design-b/drawing-640.webp" rel="noopener" target="_blank"><img alt="Original yellow character drawing open in Procreate" decoding="async" height="646" loading="lazy" sizes="(max-width: 760px) calc(100vw - 36px), (max-width: 1100px) calc((100vw - 86px) / 3), min(32vw, 510px)" src="assets/design-c/optimized/drawing-640-b35505-480.webp" srcset="assets/design-c/optimized/drawing-640-b35505-480.webp 480w, assets/design-b/drawing-640.webp 640w" width="640"/><span aria-hidden="true" class="inspect-hint">Open image ↗</span></a></div>
+<figcaption><p class="stage-label">Original artwork</p><h4>Set the visual direction</h4><p>I established the character’s appearance before testing how it could move.</p></figcaption>
+</figure>
+<figure class="process-card">
+<div class="media motion dance-motion" data-label="Disco character motion test">
+<img alt="" aria-hidden="true" class="motion-poster" decoding="async" height="960" loading="lazy" sizes="(max-width: 760px) calc(100vw - 36px), (max-width: 1100px) calc((100vw - 86px) / 3), min(32vw, 510px)" src="assets/design-c/optimized/dance-test-poster-2e3745-480.webp" srcset="assets/design-c/optimized/dance-test-poster-2e3745-480.webp 480w, assets/design-c/dance-test-poster.webp 960w" width="960"/><video aria-label="Disco character motion test" data-src="assets/design-c/optimized/dance-test-desktop.mp4" data-src-mobile="assets/design-c/optimized/dance-test-mobile.mp4" loop="" muted="" playsinline="" preload="none"></video>
+<span class="speed">Motion test</span><button aria-label="Play Disco character motion test" aria-pressed="false" class="play-control" hidden="" type="button">Play ↗</button><span class="media-error" hidden="">Motion unavailable · still shown</span></div>
+<figcaption><p class="stage-label">Motion test</p><h4>The movement test</h4><p>I compared different movements against the original character.</p></figcaption>
+</figure></div>
+      <div class="disco-final-copy"><p class="stage-label">Finished timer</p><h4>The final composition</h4><p>I brought the chosen animation into After Effects and designed the timer around it.</p></div>
+      <p class="story-result">Starting with my own drawing made it easier to tell which movements actually felt right.</p>
+    </div>
+  </details>
+  <div class="experiment-workflow" aria-label="Disco dance workflow: Procreate sketch, Runway animation, then After Effects assembly">
+    <span class="workflow-icon" title="Sketch · Procreate" aria-label="Sketch · Procreate"><img src="assets/design-c/logos/procreate.png" alt=""/></span>
+    <span class="experiment-workflow-arrow" aria-hidden="true">→</span>
+    <span class="workflow-icon" title="Animate · Runway" aria-label="Animate · Runway"><img src="assets/design-c/logos/runway.svg" alt=""/></span>
+    <span class="experiment-workflow-arrow" aria-hidden="true">→</span>
+    <span class="workflow-icon" title="Assemble and refine · After Effects" aria-label="Assemble and refine · After Effects"><img src="assets/design-c/logos/after-effects.svg" alt=""/></span>
+  </div>
+</article>
+      <article class="experiment experiment-preview-first" id="animal-study">
+        <figure class="experiment-preview">
+        <div class="media motion contain" data-label="Woodland band final timer, last 20 seconds"><img alt="" aria-hidden="true" class="motion-poster" decoding="async" height="900" loading="lazy" sizes="(max-width: 760px) calc(100vw - 36px), (max-width: 1100px) calc((100vw - 86px) / 3), min(32vw, 510px)" src="assets/design-c/optimized/animals-poster-3065dc-480.webp" srcset="assets/design-c/optimized/animals-poster-3065dc-480.webp 480w, assets/design-c/animals-poster.webp 1600w" width="1600"/><video aria-label="Woodland band final timer, last 20 seconds" data-segment-start="280" data-segment-end="300" data-src="assets/portfolio-media/013-animal%20dance/013-5min%20animal%20cartoon%20(1x).webm" data-src-mobile="assets/portfolio-media/013-animal%20dance/013-5min%20animal%20cartoon%20(1x).webm" loop="" muted="" playsinline="" preload="none"></video><span class="speed">Final timer · last 20 seconds</span><button aria-label="Play Woodland band final timer, last 20 seconds" aria-pressed="false" class="play-control" hidden="" type="button">Play ↗</button><span class="media-error" hidden="">Motion unavailable · still shown</span></div>
+        <figcaption class="experiment-caption">Final timer excerpt · <a href="assets/design-c/animal-character-development-poster.webp" target="_blank" rel="noopener">View the character exploration ↗</a></figcaption>
+        </figure>
+        <div class="experiment-heading"><p class="eyebrow">Woodland band / Music + Motion</p><h3>Making the movement follow the music</h3><p>I generated each character separately, then timed their movements against the soundtrack so the whole band felt like it was performing together.</p></div>
+        <div class="experiment-workflow" aria-label="Woodland band workflow: Midjourney and Gemini assets, Runway movement, ElevenLabs music and After Effects assembly">
+          <span class="workflow-icon-group" aria-label="Assets · Midjourney and Gemini">
+            <span class="workflow-icon" title="Assets · Midjourney" aria-label="Assets · Midjourney"><img src="assets/design-c/logos/midjourney.svg" alt=""/></span>
+            <span class="workflow-icon" title="Assets · Gemini" aria-label="Assets · Gemini"><img src="assets/design-c/logos/gemini-color.svg" alt=""/></span>
+          </span>
+          <span class="experiment-workflow-arrow" aria-hidden="true">→</span>
+          <span class="workflow-icon" title="Generate movement · Runway ML" aria-label="Generate movement · Runway ML"><img src="assets/design-c/logos/runway.svg" alt=""/></span>
+          <span class="experiment-workflow-arrow" aria-hidden="true">→</span>
+          <span class="workflow-icon" title="Music · ElevenLabs" aria-label="Music · ElevenLabs"><img src="assets/design-c/logos/elevenlabs.svg" alt=""/></span>
+          <span class="experiment-workflow-arrow" aria-hidden="true">→</span>
+          <span class="workflow-icon" title="Assemble · After Effects" aria-label="Assemble · After Effects"><img src="assets/design-c/logos/after-effects.svg" alt=""/></span>
+        </div>
+      </article>
+      <article class="experiment experiment-preview-first" id="quiet">
+        <div class="experiment-heading"><p class="eyebrow">By the sea / Hybrid animation</p><h3>Mixing generated motion with code</h3><p>Some movement came from video generation, while other parts were easier to control with code. Combining the two gave me more flexibility than relying on either one alone.</p></div>
+        <figure class="experiment-preview">
+        <div class="media motion contain" data-label="Seascape animation work in Claude">
+<img alt="" aria-hidden="true" class="motion-poster" decoding="async" height="916" loading="lazy" sizes="(max-width: 760px) calc(100vw - 36px), (max-width: 1100px) calc((100vw - 86px) / 3), min(32vw, 510px)" src="assets/design-c/optimized/012-workflow-3-still-115f7f-480.webp" srcset="assets/design-c/optimized/012-workflow-3-still-115f7f-480.webp 480w, assets/design-c/optimized/012-workflow-3-still-115f7f-960.webp 960w, assets/design-c/012-workflow-3-still.webp 1600w" width="1600"/><video aria-label="Seascape animation work in Claude" data-src="assets/design-c/seascape-process.mp4" data-src-mobile="assets/design-c/optimized/seascape-process-mobile.mp4" loop="" muted="" playsinline="" preload="none"></video>
+<span class="speed">Process recording</span><button aria-label="Play Seascape animation work in Claude" aria-pressed="false" class="play-control" hidden="" type="button">Play ↗</button><span class="media-error" hidden="">Motion unavailable · still shown</span></div>
+        <figcaption class="experiment-caption">Animation process recording · <a href="assets/design-c/012-workflow-1-assets.webp" target="_blank" rel="noopener">View the illustrated assets ↗</a></figcaption>
+        </figure>
+        <div class="experiment-workflow" aria-label="By the sea workflow: ChatGPT assets, Photoshop preparation, Claude motion, ElevenLabs music and After Effects assembly">
+          <span class="workflow-icon" title="Create the assets · ChatGPT" aria-label="Create the assets · ChatGPT"><img src="assets/design-c/logos/openai.svg" alt=""/></span>
+          <span class="experiment-workflow-arrow" aria-hidden="true">→</span>
+          <span class="workflow-icon" title="Prepare the assets · Photoshop" aria-label="Prepare the assets · Photoshop"><img src="assets/timer-lab/07-photoshop.png" alt=""/></span>
+          <span class="experiment-workflow-arrow" aria-hidden="true">→</span>
+          <span class="workflow-icon" title="Generate motion · Claude" aria-label="Generate motion · Claude"><img src="assets/design-c/logos/claude-color.svg" alt=""/></span>
+          <span class="experiment-workflow-arrow" aria-hidden="true">→</span>
+          <span class="workflow-icon" title="Music · ElevenLabs" aria-label="Music · ElevenLabs"><img src="assets/design-c/logos/elevenlabs.svg" alt=""/></span>
+          <span class="experiment-workflow-arrow" aria-hidden="true">→</span>
+          <span class="workflow-icon" title="Assemble · After Effects" aria-label="Assemble · After Effects"><img src="assets/design-c/logos/after-effects.svg" alt=""/></span>
+        </div>
+      </article>
+      <article class="experiment experiment-preview-first" id="animated-clouds" aria-labelledby="clouds-title">
+        <div class="experiment-heading"><p class="eyebrow">Animated clouds / Mixed media</p><h3 id="clouds-title">Mixing existing and generated footage</h3></div>
+        <p>I wanted to see what AI could add to material I already had. Instead of replacing the original footage, I used generated elements alongside it to build the final timer.</p>
+        <figure class="experiment-preview">
+          <div class="media motion contain" data-label="Animated clouds timer excerpt">
+            <img class="motion-poster" src="assets/design-c/optimized/clouds-countdown-60-poster.webp" alt="" aria-hidden="true" width="960" height="540" loading="lazy" decoding="async"/>
+            <video aria-label="Animated clouds timer, countdown from 1:00 to 0:30" data-src="assets/design-c/optimized/clouds-countdown-60-to-30.mp4" data-src-mobile="assets/design-c/optimized/clouds-countdown-60-to-30.mp4" loop muted playsinline preload="none"></video>
+            <span class="speed">Finished excerpt · 1:00–0:30</span><button aria-label="Play Animated clouds timer excerpt" aria-pressed="false" class="play-control" hidden type="button">Play ↗</button><span class="media-error" hidden>Motion unavailable · still shown</span>
+          </div>
+        </figure>
+        <div class="experiment-workflow" aria-label="Animated clouds workflow: Getty Images footage, ChatGPT assets, Runway animation, ElevenLabs music and After Effects assembly">
+          <span class="workflow-icon" title="Existing footage · Getty Images" aria-label="Existing footage · Getty Images"><img src="assets/design-c/logos/gettyimages.png" alt=""/></span>
+          <span class="experiment-workflow-arrow" aria-hidden="true">→</span>
+          <span class="workflow-icon" title="Generated elements · ChatGPT" aria-label="Generated elements · ChatGPT"><img src="assets/design-c/logos/openai.svg" alt=""/></span>
+          <span class="experiment-workflow-arrow" aria-hidden="true">→</span>
+          <span class="workflow-icon" title="Animate · Runway" aria-label="Animate · Runway"><img src="assets/design-c/logos/runway.svg" alt=""/></span>
+          <span class="experiment-workflow-arrow" aria-hidden="true">→</span>
+          <span class="workflow-icon" title="Music · ElevenLabs" aria-label="Music · ElevenLabs"><img src="assets/design-c/logos/elevenlabs.svg" alt=""/></span>
+          <span class="experiment-workflow-arrow" aria-hidden="true">→</span>
+          <span class="workflow-icon" title="Assemble · After Effects" aria-label="Assemble · After Effects"><img src="assets/design-c/logos/after-effects.svg" alt=""/></span>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="reflection wrap" id="reflection" aria-labelledby="reflection-title">
+  <div class="section-heading">
+    <div><p class="eyebrow">06 / Reflection</p><h2 id="reflection-title">Knowing what to hand over</h2><p class="section-deck">I started by looking for ways to make production faster. Across 45 timers, I became more interested in deciding where a tool helped and where I needed to step back in.</p></div>
+  </div>
+  <div class="reflection-grid">
+    <article><span class="reflection-number" aria-hidden="true">01</span><h3>What worked</h3><p>Reusable setup gave me a common starting point. Original artwork, selected motion and manual composition let each timer keep its own character. Short clips became more useful when I could sequence them myself.</p></article>
+    <article><span class="reflection-number" aria-hidden="true">02</span><h3>What stayed difficult</h3><p>A convincing generation could still change the background, add an object or move too much. I had to judge each take in the scene. Some ideas needed several attempts; others were quicker to make myself.</p></article>
+    <article><span class="reflection-number" aria-hidden="true">03</span><h3>What I’d change next time</h3><p>I’d test the hardest movement earlier, before developing the rest of the scene. I’d also keep a clearer record of rejected takes and why they failed, so those lessons could carry into future experiments.</p></article>
+  </div>
+  <div class="reflection-footer"><span class="brand-mark" aria-hidden="true">✳</span><p>What I’d carry into the next project is that judgment: when to draw, generate, build a small tool, or finish something by hand.</p><a class="text-link" href="#classrooms">Back to the classrooms <span aria-hidden="true">↑</span></a></div>
+</section>
+</main>
+<footer class="wrap footer"><span>The AI Timer Lab / A case study</span><span>Illustration, motion &amp; experimentation</span><div><a href="#top">Back to top ↑</a></div></footer>
+</body>
+</html>

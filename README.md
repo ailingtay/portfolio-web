@@ -1,61 +1,23 @@
-# Portfolio template
+# The AI Timer Lab portfolio
 
-A local, responsive, single-page portfolio. No framework, build step, API, or account is required. The original `DESIGN.md`, `tokens.json`, `variables.css`, and `theme.css` are preserved. The page uses `variables.css`; `theme.css` remains a Tailwind reference and is not loaded.
-
-## Search visibility
-
-Every HTML page includes `<meta name="robots" content="noindex, nofollow, noimageindex">`. Keep this tag in the document head when adding new pages. Once deployed and crawled, it tells Google and supporting search engines to exclude the pages from search results. Existing results can remain until Google recrawls; use Google Search Console's Removals tool if faster removal is needed.
-
-Do not block these pages with `robots.txt`: Google needs to fetch them to see `noindex`. This setting does not restrict visitors, protect direct media URLs, or hide a public GitHub repository. Anyone with a page or asset URL can still access and share it. Actual privacy requires hosting that enforces authentication for both pages and assets.
+Design H is the current portfolio. `index.html` and `design-h.html` contain the same published page; keep them in sync when editing. Styling and playback use `design-h.css`, `design-h.js`, and `classroom-player.js`.
 
 ## Preview
 
-**Design D (active):** open `design-d.html`, or select **D / The classroom**. Cloned from C with a bold, connected classroom video hero: twelve finished previews, poster colours and responsive rooms. Each visible room plays automatically while videos download progressively; click a room to pause or resume it. C is preserved as the archived reference. See `DESIGN-D.md`.
+Run `python3 -m http.server 8000 --bind 127.0.0.1` from this folder and open http://127.0.0.1:8000/.
 
-**Design C (reference):** open `design-c.html`, or select **C / Process journal**. This separate case-study iteration starts with building the timer tools, follows with three-stage process rows and the new thematic assets and uses a bold editorial colour palette. See `DESIGN-C.md` for the asset audit, attribution and media preparation. Technique links, application logos and “Under the hood” notes make the process easier to study; video previews support replay and scrubbing. C preloads approaching sections progressively, uses responsive posters and smaller mobile videos; see `MEDIA-PERFORMANCE.md` for the measured audit. A and B remain available as references.
+## Publishing
 
-**Design B:** open `design-b.html`, or select **B / Visual story** in the global tabs above the navigation. This wide-format alternative pairs a working-studio hero with concise, technically specific process copy. An early context section introduces ClickView and distinguishes the primary-student audience from teacher-led classroom use. Keep meaningful content visible unless the user explicitly asks to hide it. See `DESIGN-B.md` for the content audit, source attribution and two media gaps: a process-to-finish montage and a readable prompt/connector recording.
+GitHub Pages publishes the root of `main` at https://ailingtay.github.io/portfolio-web/. The direct H link is https://ailingtay.github.io/portfolio-web/design-h.html.
 
-Open `index.html` in a browser, or run `python3 -m http.server 8000 --bind 127.0.0.1` from this folder and visit http://127.0.0.1:8000. Google Fonts supplies DM Sans and Inter when online; system fonts provide an offline fallback.
+Media used by H from the original LFS-managed source folder is copied into `assets/portfolio-media/` as regular files so GitHub Pages can serve it directly. Preserve the originals for the local archive.
 
-## Edit content
+## Search visibility
 
-Edit `content.js`, or ask Codex to update it. It contains your display name, introduction, disciplines, hero media, featured project, ordered story sections, gallery, and about copy. Square-bracketed text is a writing prompt, not a claimed accomplishment. The introduction headline and section headings accept `\n` for intentional line breaks. Page styling lives in `styles.css`; rendering and viewer behavior live in `app.js`.
+Both pages include `<meta name="robots" content="noindex, nofollow, noimageindex">`. Keep this tag when editing. Google must crawl the pages to read it; do not block them with `robots.txt`. Existing search results may remain until Google recrawls. Use Google Search Console's Removals tool if faster removal is needed.
 
-To add or reorder story sections, edit the `project.sections` array. Each section has a unique `id`, `label`, `title`, `body`, and optional media. Use `mediaGroups` when a section needs more than one layout: each group has a `layout` (`stack`, `pair`, or `triple`) and an `items` array. `pair` and `triple` layouts become a single column on phones. The older `media` plus `mediaLayout: 'pair'` shape remains supported. Gallery order follows the `gallery` array; the count and viewer navigation update automatically. Each gallery entry has a title, category, description, and media object.
+This setting does not restrict visitors, protect direct media URLs, or hide a public GitHub repository. Anyone with a page or asset URL can access and share it.
 
-The section 01 workflow is an HTML component. Edit its `workflow.title`, `workflow.items`, and `workflow.footer` values to change the five stages without replacing the layout. Each item can point to an illustration with `src` and `alt`; a missing illustration automatically becomes a grey slot.
+## Archived designs
 
-Reference-driven sections use the same pattern: `comparison` builds the generation-review cards in section 05, `timeline` builds the loop and event track in section 06, and `toolSystems` builds the timer/tool chains in section 07. Their layouts are generated from the content object, so changing labels or assets does not require editing HTML.
-
-In section 06, `timeline.legend` holds the category labels, `timeline.events` holds the named moments, and `timeline.ticks` holds the time stamps below the track. Each event and tick has a `position` measured as a percentage across the track; the current spacing follows the supplied reference.
-
-## Replace grey media
-
-Create an `assets` folder for your own files. Relative paths work locally and after static hosting. Replace an individual media object with one of these examples:
-
-```js
-{ type: 'image', src: 'assets/project.jpg', alt: 'Describe the artwork meaningfully',
-  label: 'Project photograph', aspectRatio: '3 / 2', caption: 'Optional visible caption' }
-
-{ type: 'video', src: 'assets/study.mp4', poster: 'assets/study-poster.jpg',
-  label: 'Motion study', aspectRatio: '16 / 9', playback: 'preview' }
-
-{ type: 'video', src: 'assets/process.mp4', poster: 'assets/process-poster.jpg',
-  label: 'Process film', aspectRatio: '16 / 9', playback: 'manual',
-  captions: 'assets/process.en.vtt', language: 'en' }
-```
-
-`type: 'placeholder'`, an empty `src`, or an image/video load failure displays a grey placeholder. `aspectRatio` reserves placeholder space. Loaded story images and videos retain their natural proportions. Thumbnails crop; the viewer shows the complete work. Video gallery thumbnails use `poster`; without one they stay grey until the viewer opens. Use widely supported MP4/H.264 video and JPG, PNG, WebP, or AVIF images. Export appropriately sized/compressed media before adding it; the template does not transcode files.
-
-Preview videos loop muted when at least 25% visible, pause offscreen or when the tab is hidden, and have a play/pause button. A user pause is respected. Reduced-motion preferences prevent automatic playback; explicit playback is still available. Browsers that block autoplay leave a Play button. Manual videos use native controls and do not autoplay. Add caption files for spoken audio. Opening the viewer pauses background videos; closing it stops its video. Preview playback may resume in the page, while manual films remain paused.
-
-## Responsive behavior and accessibility
-
-The content is capped at 1200px. At 1024px and above, the work index sticks alongside the story. Below 1024px it becomes a horizontal strip before the story. Below 600px the hero and paired process media stack. The viewer supports previous/next buttons, arrow keys, Escape, focus containment, and return to the selected gallery card. Native video controls retain their own keyboard shortcuts.
-
-No contact, résumé, analytics, publishing, search, or backend integration is included.
-
-Project summaries and story body copy support `**bold emphasis**`, blank lines between paragraphs, and single line breaks. HTML is treated as text.
-
-Story body copy also supports `### ` subheadings, separated from surrounding paragraphs by blank lines.
+Previous local designs A–G and the review page are saved in `archive/2026-09-28/`. That folder is ignored by Git and is not published. It includes the original README and design notes, plus a `github-published/` snapshot of the former live pages. The archive shares the root `assets/` directory through relative symlinks, so retain those assets. Previously committed versions also remain in Git history.
